@@ -1,2 +1,2 @@
 # Stoatworks Electric North
-It has been requested that ACEP update the data sources that feed the Electric North Map. To do so, we would like to output a data schema and format that works seamlessly with the University of Saskatchewan's GIS infrastructure. An example GeoDatabase has been provided
+It has been requested that ACEP update the data sources that feed the Electric North Map. To do so, we would like to output a data schema and format that works seamlessly with the University of Saskatchewan's GIS infrastructure. A GeoDatabase has been provided by Saskatchewan as the current Alaska population layer. 
