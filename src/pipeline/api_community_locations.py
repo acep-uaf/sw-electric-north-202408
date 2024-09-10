@@ -10,3 +10,5 @@ url = f"{server}/{service}/{layer}/{query}"
 
 community_locations = gpd.read_file(url)
     
+
+
