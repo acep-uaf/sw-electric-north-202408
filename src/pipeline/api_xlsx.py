@@ -1,3 +1,5 @@
+import requests
+
 def xlsx_url_to_file(xlsx_url, file):
     try:
         response = requests.get(xlsx_url)
