@@ -12,18 +12,13 @@ geo_save(
     geo_output = 'data/raw/alaska_population_locations.geojson')
 target = gpd.read_file('data/raw/alaska_population_locations.geojson')
 
-target['Name_of_Settlement'].nunique()
-
-
-tmp = target[target.duplicated(['Name_of_Settlement'], keep = False)]
-
-df[df.duplicated(['Column'], keep = False)]
-
-
 tmp = target[target.duplicated(['Name_of_Settlement'], keep = False)]
 
 
-# download xlsx from Energy Stats Github repo, save to file
+
+
+
+# download infrastructure xlsx from Energy Stats Github repo, save to file
 # pull plant locations, save as geojson
 xlsx_url_to_file(
     xlsx_url = 'https://raw.githubusercontent.com/acep-uaf/ak-energy-statistics-2011_2021/main/workbooks/Energy_Stats_Infrastructure_2021.xlsx', 
@@ -33,8 +28,28 @@ df = pd.read_excel(
         'data/raw/Energy_Stats_Infrastructure_2021.xlsx',
         sheet_name = 'LOOKUP PLANTS 2023-11-13')
 
-gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.Latitude), crs=3338).to_file(
+gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.Latitude), crs='EPSG:4326').to_crs(3338).to_file(
     'data/derived/plant_locations.geojson', driver='GeoJSON')
+
+
+
+# download generation xlsx from Energy Stats Github repo, save to file
+# pull data, save as geojson
+xlsx_url_to_file(
+    xlsx_url = 'https://github.com/acep-uaf/ak-energy-statistics-2011_2021/raw/main/workbooks/Energy_Stats_Generation_Tables.xlsx', 
+    file = 'data/raw/Energy_Stats_Generation_Tables.xlsx')
+
+df = pd.read_excel(
+        'data/raw/Energy_Stats_Generation_Tables.xlsx',
+        sheet_name = 'LOOKUP SalesReport 2023-11-13')
+
+gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.Longitude, df.Latitude), crs='EPSG:4326').to_crs(3338).to_file(
+    'data/derived/lookup_sales_report.geojson', driver='GeoJSON')
+
+test = gpd.read_file('data/derived/lookup_sales_report.geojson')
+
+
+
 
 
 # save GNIS incorporated places data from USGS 
