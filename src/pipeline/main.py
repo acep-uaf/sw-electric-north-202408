@@ -5,6 +5,24 @@ import geopandas as gpd
 from src.pipeline.api_xlsx import xlsx_url_to_file
 from src.pipeline.api_geo import geo_save
 
+# first and foremost, this geodatabase represents our target output
+# save geodatabase to file as geojson
+geo_save(
+    geo_input = 'data/source/Alaska_population_locations.gdb.zip',
+    geo_output = 'data/raw/alaska_population_locations.geojson')
+target = gpd.read_file('data/raw/alaska_population_locations.geojson')
+
+target['Name_of_Settlement'].nunique()
+
+
+tmp = target[target.duplicated(['Name_of_Settlement'], keep = False)]
+
+df[df.duplicated(['Column'], keep = False)]
+
+
+tmp = target[target.duplicated(['Name_of_Settlement'], keep = False)]
+
+
 # download xlsx from Energy Stats Github repo, save to file
 # pull plant locations, save as geojson
 xlsx_url_to_file(
@@ -19,22 +37,36 @@ gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.Latitude), crs
     'data/derived/plant_locations.geojson', driver='GeoJSON')
 
 
+# save GNIS incorporated places data from USGS 
+geo_save(
+    geo_input = 'https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/1/query?outFields=*&where=state_alpha%3D%27AK%27&f=geojson',
+    geo_output = 'data/raw/gnis_incorporated.geojson'
+)
+incorporated = gpd.read_file('data/raw/gnis_incorporated.geojson')
+incorporated.explore()
 
-# save GNIS location data from USGS 
+
+# save GNIS unincorporated places data from USGS 
+geo_save(
+    geo_input = 'https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/2/query?outFields=*&where=state_alpha%3D%27AK%27&f=geojson',
+    geo_output = 'data/raw/gnis_unincorporated.geojson'
+)
+unincorporated = gpd.read_file('data/raw/gnis_unincorporated.geojson')
+unincorporated.explore()
+
+# save GNIS places data from USGS 
 geo_save(
     geo_input = 'https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/3/query?outFields=*&where=state_alpha%3D%27AK%27&f=geojson',
-    geo_output = 'data/raw/gnis_locations.geojson'
+    geo_output = 'data/raw/gnis_places.geojson'
 )
-# test = gpd.read_file('data/raw/gnis_locations.geojson')
-# test.plot()
+places = gpd.read_file('data/raw/gnis_places.geojson')
+places.explore()
+
+
+tmp = places[places['gaz_name' == 'Aniak']]
 
 
 
-
-# save geodatabase to file as geojson
-geo_save(
-    geo_input = 'data/source/Alaska_population_locations.gdb.zip',
-    geo_output = 'data/raw/alaska_population_locations.geojson')
 
 # save ak_coastline to file from DNR
 geo_save(

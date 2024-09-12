@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "gnis_locations",
+"name": "gnis_places",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3338" } },
 "features": [
 { "type": "Feature", "properties": { "OBJECTID": 1774, "gaz_id": 1404990, "gaz_name": "Kravaksarak", "gaz_featureclass": "Populated Place", "fcode": 61500, "state_alpha": "AK", "county_name": "Kusilvak (CA)", "objectid_1": 31166529, "isunknowncoords": 2, "incounty_id": 1644677 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -510463.7418164392584, 1465739.210298058111221 ] ] } },
