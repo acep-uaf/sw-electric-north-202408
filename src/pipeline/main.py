@@ -20,6 +20,16 @@ gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.Latitude), crs
 
 
 
+# save GNIS location data from USGS 
+geo_save(
+    geo_input = 'https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/3/query?outFields=*&where=state_alpha%3D%27AK%27&f=geojson',
+    geo_output = 'data/raw/gnis_locations.geojson'
+)
+# test = gpd.read_file('data/raw/gnis_locations.geojson')
+# test.plot()
+
+
+
 
 # save geodatabase to file as geojson
 geo_save(
