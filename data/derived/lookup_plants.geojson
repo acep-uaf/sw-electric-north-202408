@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "plant_locations",
+"name": "lookup_plants",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3338" } },
 "features": [
 { "type": "Feature", "properties": { "Unnamed: 0": null, "AEA Plant ID": "P1", "eia_plant_id": 54452.0, "PCE reporting ID": null, "plant_name": "Agrium Kenai Nitrogen Operations", "AEA_operator Id": "AEA-121", "eia_operator_id": 179.0, "OPERATOR_Operator_name": "Agrium US Inc", "INTERTIE_Current Intertie ID": "215-1985", "INTERTIE_Current Intertie name": "Railbelt_grid", "Currently Reports to EIA": 0.0, "Currently Reports to PCE": 0.0, "combined_heat_power": "False", "nameplate_capacity": null, "OPERATOR_sector__id": null, "OPERATOR_sector__name": "Industrial CHP", "OPERATOR_sector__number": 7.0, "Primary voltage": 24.8, "Primary voltage 2": null, "Phases": null, "Latitude": 60.6732, "longitude": -151.3784, "status (OP, SB, OA)": null, "Notes": null, "Unnamed: 24": null, "Unnamed: 25": null, "Unnamed: 26": null, "Unnamed: 27": null, "Unnamed: 28": null, "Unnamed: 29": null, "Unnamed: 30": null, "Unnamed: 31": null, "Unnamed: 32": null, "Unnamed: 33": null, "Unnamed: 34": null, "Unnamed: 35": null, "Unnamed: 36": null, "Unnamed: 37": null, "Unnamed: 38": null, "Unnamed: 39": null, "Unnamed: 40": null }, "geometry": { "type": "Point", "coordinates": [ 142723.494429490907351, 1190400.797311871079728 ] } },

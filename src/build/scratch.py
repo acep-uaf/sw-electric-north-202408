@@ -27,7 +27,7 @@ plants.explore()
 aetr_gen = gpd.read_file('data/derived/generation.csv')
 aetr_names = aetr_gen[['plant_name', 'generation']]
 
-plants = gpd.read_file('data/derived/plant_locations.geojson')
+plants = gpd.read_file('data/derived/lookup_plants.geojson')
 plant_geoms = plants[['plant_name', 'geometry']]
 
 test = plant_geoms.merge(aetr_names, on='plant_name')
@@ -36,8 +36,10 @@ outer = plant_geoms.merge(aetr_names, how='outer', indicator=True)
 test = outer[outer['_merge'] == 'left_only']
 
 outer['_merge'] = (outer['_merge']
-                    .cat.rename_categories({'left_only':'es_plants', 'right_only':'aetr_gen'}))
+                    .cat.rename_categories({'left_only':'lookup_plants', 'right_only':'aetr_gen'}))
 
 outer = outer.sort_values(by = '_merge')
 
 outer.to_file('data/derived/plant_location_merge_debugging.geojson', driver = 'GeoJSON')
+
+
