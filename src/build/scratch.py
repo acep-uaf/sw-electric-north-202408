@@ -25,21 +25,21 @@ plants.explore()
 
 # try to join AETR generation with GNIS identifiers from ES workbooks
 aetr_gen = gpd.read_file('data/derived/generation.csv')
-aetr_names = aetr_gen[['plant_name', 'generation']]
+aetr_names = aetr_gen[['plant_name', 'acep_region']].drop_duplicates(keep='first')
 
 plants = gpd.read_file('data/derived/lookup_plants.geojson')
-plant_geoms = plants[['plant_name', 'geometry']]
+plant_ids = plants[['plant_name', 'AEA Plant ID']].drop_duplicates(keep='first')
 
-test = plant_geoms.merge(aetr_names, on='plant_name')
+test = plant_ids.merge(aetr_names, on='plant_name')
 
-outer = plant_geoms.merge(aetr_names, how='outer', indicator=True)
+outer = plant_ids.merge(aetr_names, how='outer', indicator=True)
 test = outer[outer['_merge'] == 'left_only']
 
 outer['_merge'] = (outer['_merge']
-                    .cat.rename_categories({'left_only':'lookup_plants', 'right_only':'aetr_gen'}))
+                    .cat.rename_categories({'left_only':'lookup_plants_only', 'right_only':'aetr_gen_only'}))
 
 outer = outer.sort_values(by = '_merge')
 
-outer.to_file('data/derived/plant_location_merge_debugging.geojson', driver = 'GeoJSON')
+outer.to_csv('data/derived/aetr_es_merge_debugging.csv')
 
 

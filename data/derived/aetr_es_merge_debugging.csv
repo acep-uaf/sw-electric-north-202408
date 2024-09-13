@@ -1,0 +1,342 @@
+,plant_name,AEA Plant ID,acep_region,_merge
+0,10 Mile Creek,P168,,lookup_plants_only
+311,Tin City,P277,,lookup_plants_only
+309,Tetlin,P39,,lookup_plants_only
+46,Blue Lake Fish Valve,P280,,lookup_plants_only
+51,Burnett River Hatchery,P245,,lookup_plants_only
+168,Kobuk,P179,,lookup_plants_only
+54,Central Production Facility 1,P284,,lookup_plants_only
+55,Central Production Facility 2,P285,,lookup_plants_only
+56,Central Production Facility 3,P286,,lookup_plants_only
+167,Klukwan,P167,,lookup_plants_only
+59,Chena 6,P279,,lookup_plants_only
+165,Klawock,P278,,lookup_plants_only
+64,Chignik Bay,P118,,lookup_plants_only
+297,TDX Saint Paul Wind,P297,,lookup_plants_only
+71,Chugach Storage,P296,,lookup_plants_only
+289,South Fork Hydro (Eagle River),P243,,lookup_plants_only
+230,Nymans Plant Microgrid,P183,,lookup_plants_only
+231,Offshore Systems,P289,,lookup_plants_only
+133,Hiilangaay Hydro,P293,,lookup_plants_only
+134,Hollis,P37,,lookup_plants_only
+243,Pitkas Point,P92,,lookup_plants_only
+111,Flywheel Energy Storage System Microgrid,P181,,lookup_plants_only
+105,Eyak Service Center BESS,P131,,lookup_plants_only
+268,Seawater Treatment Plant,P290,,lookup_plants_only
+215,Nightmute,P89,,lookup_plants_only
+197,McRoberts Creek,P276,,lookup_plants_only
+90,ESS Battery Microgrid,P180,,lookup_plants_only
+149,Jetty Lake (West Side Hydro),P274,,lookup_plants_only
+88,Dry Spruce Bay (Creek),P226,,lookup_plants_only
+150,Juniper Creek Hydroetlectric,P298,,lookup_plants_only
+84,Dewey Lakes ,P41,,lookup_plants_only
+282,Slana Generating Station ,P27,,lookup_plants_only
+146,Ivanof Bay,P269,,lookup_plants_only
+37,Bering Star,P283,,lookup_plants_only
+250,Port Lions Microgrid,P185,,lookup_plants_only
+188,Lower Kalskag,P99,,lookup_plants_only
+16,American President Lines Ltd,P282,,lookup_plants_only
+14,Alyeska Seafoods,P281,,lookup_plants_only
+189,Lutak,P42,,lookup_plants_only
+190,Mahoney Lake Hydroelectric,P170,,lookup_plants_only
+191,Manley,P253,,lookup_plants_only
+208,Napakiak,P208,,lookup_plants_only
+322,Unalaska,P291,,lookup_plants_only
+194,Marathon Hydro,P275,,lookup_plants_only
+29,Aurora Energy LLC,P109,,lookup_plants_only
+187,Lisburne Production Center,P288,,lookup_plants_only
+2,AWWU Conduit,P104,,lookup_plants_only
+33,Battery Energy Storage System,P146,,lookup_plants_only
+318,Tununak,P97,,lookup_plants_only
+1,7-Mile Ridge Wind Project,P44,,lookup_plants_only
+4,Agrium Kenai Nitrogen Operations,P1,,lookup_plants_only
+130,Hank Nikkels Plant 1,,Railbelt,aetr_gen_only
+153,Kalskag,,Rural Remote,aetr_gen_only
+79,Craig (AK),,Coastal,aetr_gen_only
+281,Slana,,Rural Remote,aetr_gen_only
+120,Goat Lake,,Coastal,aetr_gen_only
+280,Slana,,Coastal,aetr_gen_only
+86,"Dillingham, Aleknagik",,Rural Remote,aetr_gen_only
+12,"Allakaket, Alatna",,Rural Remote,aetr_gen_only
+10,Alaska Environmental,,Railbelt,aetr_gen_only
+261,"Saint Mary's, Andreafsky",,Rural Remote,aetr_gen_only
+275,Sheldon Point,,Rural Remote,aetr_gen_only
+204,NSB Nuiqsut Utility,,Rural Remote,aetr_gen_only
+115,Galena,,Rural Remote,aetr_gen_only
+272,Seward (AK),,Railbelt,aetr_gen_only
+229,Nymans Plant,,Coastal,aetr_gen_only
+203,NSB Kaktovik Utility,,Rural Remote,aetr_gen_only
+143,"Iliamna, Newhalen, Nondalton",,Rural Remote,aetr_gen_only
+113,Fort Yukon,,Rural Remote,aetr_gen_only
+238,Petersburg,,Coastal,aetr_gen_only
+202,NSB Atqasuk Utility,,Rural Remote,aetr_gen_only
+239,Pillar Mountain,,Coastal,aetr_gen_only
+107,Falls Creek,,Coastal,aetr_gen_only
+92,"Eagle, Eagle Village",,Rural Remote,aetr_gen_only
+98,Eklutna Lake,,Railbelt,aetr_gen_only
+176,Kotzebue Hybrid,,Rural Remote,aetr_gen_only
+63,Chignik,,Rural Remote,aetr_gen_only
+28,Aurora Energy,,Railbelt,aetr_gen_only
+156,Kasidaya Creek,,Coastal,aetr_gen_only
+303,Tazimina,,Rural Remote,aetr_gen_only
+45,Blue Lake,,Coastal,aetr_gen_only
+181,Lake Dorothy,,Coastal,aetr_gen_only
+30,Aurora Energy LLC Chena,,Railbelt,aetr_gen_only
+217,Nikiski Combined Cycle,,Railbelt,aetr_gen_only
+31,Banner Peak Wind Farm,,Rural Remote,aetr_gen_only
+169,Kodiak,,Coastal,aetr_gen_only
+41,"Bettles, Evansville",,Rural Remote,aetr_gen_only
+249,Port Lions,,Coastal,aetr_gen_only
+306,Terror Lake,,Coastal,aetr_gen_only
+296,TDX CT1/CT2,,Rural Remote,aetr_gen_only
+224,"Northway, Northway Village, Northway Junction",,Rural Remote,aetr_gen_only
+314,"Tok, Tanacross",,Rural Remote,aetr_gen_only
+205,NSB Point Hope Utility,,Rural Remote,aetr_gen_only
+207,"Naknek, South Naknek, King Salmon",,Rural Remote,aetr_gen_only
+216,Nikiski Co-Generation,P157,Railbelt,both
+218,Nikolai,P214,Rural Remote,both
+248,Port Heiden,P232,Rural Remote,both
+240,Pillar Mountain Wind Project Microgrid,P184,Coastal,both
+247,Port Alsworth,P248,Rural Remote,both
+242,Pilot Station,P65,Rural Remote,both
+214,Newtok,P265,Rural Remote,both
+246,Point Lay,P221,Rural Remote,both
+201,Mountain Village,P60,Rural Remote,both
+245,Point Hope,P220,Rural Remote,both
+241,Pilot Point,P230,Rural Remote,both
+244,Platinum,P231,Rural Remote,both
+228,Nunapitchuk,P64,Rural Remote,both
+237,Perryville,P211,Rural Remote,both
+227,Nunam Iqua,P223,Rural Remote,both
+226,Nulato,P90,Rural Remote,both
+213,Newhalen,P162,Rural Remote,both
+232,Old Harbor,P91,Coastal,both
+225,Nuiqsut,P219,Rural Remote,both
+223,Northway,P25,Rural Remote,both
+206,Naknek,P207,Rural Remote,both
+222,North Pole,P151,Railbelt,both
+221,Noorvik,P63,Rural Remote,both
+233,Orca,P133,Coastal,both
+209,Napaskiak,P209,Rural Remote,both
+234,Ouzinkie,P225,Coastal,both
+220,Noatak,P62,Rural Remote,both
+235,Pedro Bay,P227,Rural Remote,both
+210,Naukati Bay,P43,Coastal,both
+211,Nelson Lagoon,P212,Rural Remote,both
+236,Pelican,P228,Coastal,both
+219,Nikolski,P261,Rural Remote,both
+212,New Stuyahok,P61,Rural Remote,both
+271,Seward,P239,Railbelt,both
+252,Purple Lake,P201,Coastal,both
+319,Twin Hills,P260,Rural Remote,both
+317,Tuntutuliak,P259,Rural Remote,both
+316,Tuluksak,P258,Rural Remote,both
+315,Toksook Bay,P76,Rural Remote,both
+313,Tok,P29,Rural Remote,both
+312,Togiak,P75,Rural Remote,both
+320,Tyee Lake Hydroelectric Facility,P244,Coastal,both
+310,Thorne Bay Plant,P28,Coastal,both
+307,Terror Lake Microgrid,P187,Coastal,both
+305,Tenakee Springs,P256,Coastal,both
+304,Teller,P96,Rural Remote,both
+302,Tatitlek,P250,Coastal,both
+301,Tanana,P249,Rural Remote,both
+300,Takotna,P247,Rural Remote,both
+308,Tesoro Kenai Cogeneration Plant,P257,Railbelt,both
+299,TNSG South Plant,P255,Rural Remote,both
+321,Unalakleet,P262,Rural Remote,both
+324,Unisea G 2,P266,Rural Remote,both
+338,Willow Solar,P235,Railbelt,both
+337,Whitman,P176,Coastal,both
+336,White Mountain,P272,Rural Remote,both
+335,Whale Pass,P40,Coastal,both
+334,Westward Seafoods,P271,Rural Remote,both
+333,Wales,P98,Rural Remote,both
+323,Unalaska Power Module,P264,Rural Remote,both
+332,Wainwright,P222,Rural Remote,both
+330,Venetie,P270,Rural Remote,both
+329,Valdez Cogen,P130,Coastal,both
+328,Valdez,P129,Coastal,both
+327,Utility Plants Section,P137,Railbelt,both
+326,Upper Kalskag,P77,Rural Remote,both
+325,University of Alaska Fairbanks,P267,Railbelt,both
+331,Viking,P19,Coastal,both
+251,Power Creek,P134,Coastal,both
+298,TNSG North Plant,P254,Rural Remote,both
+294,Swampy Acres Microgrid,P186,Coastal,both
+267,Scammon Bay,P69,Rural Remote,both
+266,Savoonga,P68,Rural Remote,both
+265,Sand Point,P252,Rural Remote,both
+264,Salmon Creek 1,P12,Coastal,both
+263,Saint Paul,P238,Rural Remote,both
+262,Saint Michael,P73,Rural Remote,both
+269,Selawik,P70,Rural Remote,both
+260,Saint Mary's,P67,Rural Remote,both
+258,S W Bailey,P173,Coastal,both
+257,Russian Mission,P93,Rural Remote,both
+256,Ruby,P236,Rural Remote,both
+255,Red Devil,P204,Rural Remote,both
+254,Rampart,P234,Rural Remote,both
+253,Quinhagak,P66,Rural Remote,both
+259,Saint George,P237,Rural Remote,both
+295,Swan Lake,P175,Coastal,both
+270,Seldovia,P158,Railbelt,both
+274,Shaktoolik,P95,Rural Remote,both
+293,Stony River,P206,Rural Remote,both
+292,Stevens Village,P246,Rural Remote,both
+291,Stebbins,P74,Rural Remote,both
+290,Southcentral Power Project,P123,Railbelt,both
+288,South Fork,P18,Coastal,both
+287,Solomon Gulch,P128,Coastal,both
+273,Shageluk,P94,Rural Remote,both
+286,Soldotna,P159,Railbelt,both
+284,Snake River,P215,Rural Remote,both
+283,Sleetmute,P205,Rural Remote,both
+279,Skagway,P26,Coastal,both
+278,Silvis,P174,Coastal,both
+277,Shungnak,P72,Rural Remote,both
+276,Shishmaref,P71,Rural Remote,both
+285,Snettisham,P13,Coastal,both
+200,Minto,P88,Rural Remote,both
+170,Kodiak Microgrid,P182,Coastal,both
+198,Mekoryuk,P87,Rural Remote,both
+57,Chalkyitsik,P114,Rural Remote,both
+58,Chefornak,P210,Rural Remote,both
+60,Chenega Bay,P115,Coastal,both
+61,Chester Lake,P200,Coastal,both
+62,Chevak,P49,Rural Remote,both
+65,Chignik Lagoon,P116,Rural Remote,both
+66,Chignik Lake,P117,Rural Remote,both
+67,Chilkat Valley,P166,Coastal,both
+68,Chistochina,P32,Coastal,both
+69,Chitina,P119,Coastal,both
+70,Chuathbaluk,P202,Rural Remote,both
+72,Circle,P124,Rural Remote,both
+73,Clark's Point,P125,Rural Remote,both
+74,Coffman Cove,P33,Coastal,both
+75,Cold Bay,P143,Rural Remote,both
+76,Cooper Lake,P121,Railbelt,both
+77,"Cordova, Eyak",P292,Coastal,both
+97,Eklutna Hydro Project,P102,Railbelt,both
+96,Eklutna Generation Station,P197,Railbelt,both
+95,Eielson AFB Central Heat & Power Plant,P268,Railbelt,both
+94,Egegik,P139,Rural Remote,both
+93,Eek,P80,Rural Remote,both
+91,Eagle,P34,Rural Remote,both
+53,Central,P145,Rural Remote,both
+89,Dutch Harbor,P263,Rural Remote,both
+85,Dillingham,P224,Rural Remote,both
+83,Delta Wind Farm,P14,Railbelt,both
+82,Delta Power,P147,Railbelt,both
+81,Deering,P169,Rural Remote,both
+80,Crooked Creek,P203,Rural Remote,both
+78,Craig,P20,Coastal,both
+87,Diomede,P135,Rural Remote,both
+52,Centennial,P199,Coastal,both
+50,Buckland,P113,Rural Remote,both
+49,Brevig Mission,P48,Rural Remote,both
+21,Annex Creek,P6,Coastal,both
+20,Aniak,P105,Rural Remote,both
+19,Angoon,P163,Coastal,both
+18,Anchorage 1,P101,Railbelt,both
+17,Anaktuvuk Pass,P216,Rural Remote,both
+15,Ambler,P46,Rural Remote,both
+22,Anvik,P79,Rural Remote,both
+13,Allison Creek Hydro,P126,Coastal,both
+9,Alakanuk,P45,Rural Remote,both
+8,Akutan,P5,Rural Remote,both
+7,Akiak,P4,Rural Remote,both
+6,Akiachak,P3,Rural Remote,both
+5,Akhiok,P2,Coastal,both
+3,Adak,P251,Rural Remote,both
+11,Allakaket,P30,Rural Remote,both
+99,Ekwok,P81,Rural Remote,both
+23,Arctic Village,P106,Rural Remote,both
+25,Atmautluak,P108,Rural Remote,both
+48,Bradley Lake,P156,Railbelt,both
+47,Blue Lake Hydro,P240,Coastal,both
+44,Blind Slough,P229,Coastal,both
+43,Black Bear Lake,P15,Coastal,both
+42,Birch Creek,P112,Rural Remote,both
+40,Bettles,P31,Rural Remote,both
+24,Atka,P107,Rural Remote,both
+39,Bethel,P47,Rural Remote,both
+36,Beluga,P120,Railbelt,both
+35,Beaver Falls,P171,Coastal,both
+34,Beaver,P111,Rural Remote,both
+32,Barrow,P110,Rural Remote,both
+27,Auke Bay,P7,Coastal,both
+26,Atqasuk,P217,Rural Remote,both
+38,Bernice Lake,P155,Railbelt,both
+199,Mentasta Lake,P38,Coastal,both
+100,Ekwok,P81,Coastal,both
+102,Elim,P50,Rural Remote,both
+152,Kaktovik,P218,Rural Remote,both
+154,Kaltag,P86,Rural Remote,both
+155,Karluk,P100,Coastal,both
+157,Kasidaya Creek Hydro,P17,Coastal,both
+158,Kasigluk,P54,Rural Remote,both
+159,Ketchikan,P172,Coastal,both
+160,Kiana,P55,Rural Remote,both
+161,King Cove,P177,Rural Remote,both
+162,King Cove,P287,Rural Remote,both
+163,Kipnuk,P178,Rural Remote,both
+164,Kivalina,P56,Rural Remote,both
+166,Klawock Power Generation Station,P24,Coastal,both
+339,Wrangell,P273,Coastal,both
+171,Kokhanok,P188,Rural Remote,both
+172,Koliganek,P213,Rural Remote,both
+173,Kongiganak,P233,Rural Remote,both
+174,Kotlik,P57,Rural Remote,both
+196,McGrath,P198,Rural Remote,both
+195,Marshall,P59,Rural Remote,both
+193,Manokotak,P196,Rural Remote,both
+192,Manley Hot Springs,P253,Rural Remote,both
+186,Lime Village,P195,Rural Remote,both
+185,Levelock,P194,Rural Remote,both
+151,Kake,P165,Coastal,both
+184,Lemon Creek,P11,Coastal,both
+182,Lake Dorothy Hydroelectric Project,P10,Coastal,both
+180,Kwigillingok,P192,Rural Remote,both
+179,Kwethluk,P191,Rural Remote,both
+178,Koyukuk,P190,Rural Remote,both
+177,Koyuk,P58,Rural Remote,both
+175,Kotzebue,P189,Rural Remote,both
+183,Larsen Bay,P193,Coastal,both
+148,Jarvis Street,P242,Coastal,both
+147,JBER Landfill Gas Power Plant,P138,Railbelt,both
+145,International,P122,Railbelt,both
+122,Gold Creek,P8,Coastal,both
+121,Goat Lake Hydro,P16,Coastal,both
+119,Glennallen,P127,Coastal,both
+118,George M Sullivan Generation Plant 2,P103,Railbelt,both
+117,Gambell,P52,Rural Remote,both
+116,Galena Electric Utility,P144,Rural Remote,both
+123,Golovin,P153,Rural Remote,both
+114,GVEA Solar Farm,P152,Railbelt,both
+110,Fire Island Wind,P142,Railbelt,both
+109,False Pass,P141,Rural Remote,both
+108,False Island,P21,Coastal,both
+106,Fairbanks,P149,Railbelt,both
+104,Eva Creek Wind,P148,Railbelt,both
+103,Emmonak,P51,Rural Remote,both
+112,Fort Greely Power Plant,P136,Railbelt,both
+101,Elfin Cove,P140,Coastal,both
+124,Goodnews Bay,P82,Rural Remote,both
+126,Green Lake,P241,Coastal,both
+144,Industrial Plant,P9,Coastal,both
+142,Igiugig,P161,Rural Remote,both
+141,Hydaburg,P23,Coastal,both
+140,Huslia,P85,Rural Remote,both
+139,Humpback Creek,P132,Coastal,both
+138,Hughes,P160,Rural Remote,both
+125,Grayling,P83,Rural Remote,both
+137,Hooper Bay,P53,Rural Remote,both
+135,Holy Cross,P84,Rural Remote,both
+132,Healy Lake,P36,Rural Remote,both
+131,Healy,P150,Railbelt,both
+129,Haines,P22,Coastal,both
+128,Gwitchyaa Zhee,P154,Rural Remote,both
+127,Gustavus,P35,Coastal,both
+136,Hoonah,P164,Coastal,both
+340,Yakutat,P78,Coastal,both
