@@ -15,11 +15,7 @@ gdf['geometry'] = new_geometry
 gdf.explore()
 
 
-lines = gpd.read_file('data/derived/transmission.geojson')
-lines.explore()
 
-plants = gpd.read_file('data/derived/plant_locations.geojson')
-plants.explore()
 
 
 
@@ -27,19 +23,23 @@ plants.explore()
 aetr_gen = gpd.read_file('data/derived/generation.csv')
 aetr_names = aetr_gen[['plant_name', 'acep_region']].drop_duplicates(keep='first')
 
-plants = gpd.read_file('data/derived/lookup_plants.geojson')
-plant_ids = plants[['plant_name', 'AEA Plant ID']].drop_duplicates(keep='first')
+es_ops = gpd.read_file('data/derived/annual_operations.csv')
+es_ops_ids = (es_ops[['AEA Reporter Name', 'AEA Reporter ID']].drop_duplicates(keep='first')
+                .rename(columns={'AEA Reporter Name': 'plant_name'}))
 
-test = plant_ids.merge(aetr_names, on='plant_name')
+test = es_ops_ids.merge(aetr_names, on='plant_name')
 
-outer = plant_ids.merge(aetr_names, how='outer', indicator=True)
+outer = es_ops_ids.merge(aetr_names, how='outer', indicator=True)
 test = outer[outer['_merge'] == 'left_only']
 
 outer['_merge'] = (outer['_merge']
-                    .cat.rename_categories({'left_only':'lookup_plants_only', 'right_only':'aetr_gen_only'}))
+                    .cat.rename_categories({'left_only':'annual_ops_only', 'right_only':'aetr_gen_only'}))
 
 outer = outer.sort_values(by = '_merge')
 
 outer.to_csv('data/derived/aetr_es_merge_debugging.csv')
 
 
+both = outer['_merge'].str.count('both')
+
+outer['_merge'].value_counts()
