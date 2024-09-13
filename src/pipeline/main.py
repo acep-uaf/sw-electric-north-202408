@@ -60,6 +60,13 @@ df.to_csv('data/derived/annual_operations.csv')
 
 
 
+# pull monthly gen data from generation xlsx, save to file
+df = pd.read_excel(
+        'data/raw/Energy_Stats_Generation_Tables.xlsx',
+        sheet_name = 'Monthly Gen 2001-2021')
+
+df.to_csv('data/derived/monthly_gen.csv')
+
 
 
 

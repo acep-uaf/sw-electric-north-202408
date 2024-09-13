@@ -43,3 +43,10 @@ outer.to_csv('data/derived/aetr_es_merge_debugging.csv')
 both = outer['_merge'].str.count('both')
 
 outer['_merge'].value_counts()
+
+
+len(set(aetr_gen["plant_name"]))
+len(set(es_ops["AEA Reporter Name"]))
+
+
+(set(aetr_gen["plant_name"]) | set(es_ops["AEA Reporter Name"])).symmetric_difference(outer["plant_name"])
