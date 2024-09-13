@@ -47,7 +47,7 @@ gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.Longitude, df.Latitude), crs
     'data/derived/lookup_sales_report.geojson', driver='GeoJSON')
 
 test = gpd.read_file('data/derived/lookup_sales_report.geojson')
-
+test.explore()
 
 
 
