@@ -1,11 +1,13 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 function purge() {
   # toast the zip file
   # toast the folder 
   echo "purge!"
-}
+} 
 
+SCRIPT_DIR=$(cd $(dirname $BASH_SOURCE[0]) > /dev/null; pwd) 
+cd $SCRIPT_DIR
 
 if [ ! -f Places2020.zip ]; then
   echo "downloading the Places2020.zip"
