@@ -2,5 +2,7 @@
 
 .DS_Store
 
+
 Shapefile_export/
 *.zip
+*.xlsx
