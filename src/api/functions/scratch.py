@@ -2,8 +2,8 @@ import pandas as pd
 import geopandas as gpd
 
 
-from src.pipeline.api_xlsx import xlsx_url_to_file
-from src.pipeline.api_geo import geo_save
+from src.api.functions.api_xlsx import xlsx_url_to_file
+from src.api.functions.api_geo import geo_save
 
 
 layer_url = "https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/1"

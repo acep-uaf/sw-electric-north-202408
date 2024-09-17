@@ -2,7 +2,7 @@ import geopandas as gpd
 import pandas as pd
 
 
-gdf = gpd.read_file('data/raw/alaska_population_locations.geojson')
+gdf = gpd.read_file('data/raw/dcced_communities.geojson')
 gdf.explore()
 
 
