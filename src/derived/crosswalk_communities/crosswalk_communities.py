@@ -9,20 +9,12 @@ def make_yaml(df_path, id_column: str, name_column: str, yaml_path):
     # read file
     df = gpd.read_file(df_path)
 
-    # # select column of names
-    # c = df[[id_column, name_column]]
-    # # make dictionary of names with empty alias
-    # dict = c.to_dict()
-
+    # select columns of id and name, make dictionary
     d = df.set_index(id_column)[name_column].to_dict()
 
-    # yaml.dump({k: {'name': v} for k, v in d.items()}, open(yaml_path, 'w'), default_flow_style=False)
+    # make empty key:value for alias, write to file
     yaml.dump({k: {'name': v, 'alias': None} for k, v in d.items()}, open(yaml_path, 'w'), default_flow_style=False)
 
-
-    # # write to file as yaml
-    # with open(yaml_path, 'w') as outfile:
-    #     yaml.dump(d, outfile, default_flow_style=False)
 
 df_path = 'data/raw/usgs_places.geojson'
 id_column = 'gaz_id'
