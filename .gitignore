@@ -4,5 +4,8 @@
 
 
 Shapefile_export/
+
+.gdb
 *.zip
 *.xlsx
+*.xls

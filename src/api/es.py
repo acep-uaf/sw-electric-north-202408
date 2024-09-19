@@ -44,7 +44,7 @@ df = pd.read_excel(
         'data/raw/Energy_Stats_Generation_Tables.xlsx',
         sheet_name = 'AnnualOperationsData 2023-11-13')
 
-df.to_csv('data/derived/annual_operations.csv')
+df.to_csv('data/derived/annual_operations.csv', index=False)
 
 
 
@@ -53,4 +53,19 @@ df = pd.read_excel(
         'data/raw/Energy_Stats_Generation_Tables.xlsx',
         sheet_name = 'Monthly Gen 2001-2021')
 
-df.to_csv('data/derived/monthly_gen.csv')
+df.to_csv('data/derived/monthly_gen.csv', index=False)
+
+
+
+# pull data from generation xlsx, save to file
+df = pd.read_excel(
+        'data/raw/Energy_Stats_Generation_Tables.xlsx',
+        sheet_name = 'All Gen FUEL TYPE PIVOT',
+        skiprows=4,
+        skipfooter=1).rename(columns={'Row Labels': 'Year'})
+
+
+
+df.to_csv('data/derived/gen_fuel_type.csv', index=False)
+
+load = pd.read_csv('data/derived/gen_fuel_type.csv')
