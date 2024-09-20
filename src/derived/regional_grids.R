@@ -1,4 +1,5 @@
 library(sf)
+library(dplyr)
 library(ggplot2)
 
 # load coastline, transmission vector
@@ -13,7 +14,7 @@ hex = function(x, cell_km) {
 }
 
 # draw hex grid of ak coast
-grid = hex(coastline, 50)
+grid = hex(coastline, 40)
 
 # plot the hex grid over the coastline
 # ggplot() +
@@ -24,7 +25,7 @@ grid = hex(coastline, 50)
 
 
 # pull grid cells that have transmission lines
-grid_select <- grid[st_intersection(transmission, grid), ]
+grid_select <- grid[st_intersection(st_buffer(transmission, dist=20000), grid), ]
 
 # plot it all
 ggplot() +
@@ -34,4 +35,9 @@ ggplot() +
   theme_void()
 
 
-st_write(grid_select, 'data/derived/regional_grids.geojson')
+
+
+st_write(grid_select, 'data/derived/regional_grids.geojson', delete_dsn=T)
+
+
+

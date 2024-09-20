@@ -2,16 +2,19 @@ import pandas as pd
 import geopandas as gpd
 
 
-from src.api.functions.api_xlsx import xlsx_url_to_file
-from src.api.functions.api_geo import geo_save
+from src.raw.functions.api_xlsx import xlsx_url_to_file
+from src.raw.functions.api_geo import geo_save
 
+
+### Infrastructure Workbook
 
 # download infrastructure xlsx from Energy Stats Github repo, save to file
-# pull plant locations, save as geojson
+
 xlsx_url_to_file(
     xlsx_url = 'https://raw.githubusercontent.com/acep-uaf/ak-energy-statistics-2011_2021/main/workbooks/Energy_Stats_Infrastructure_2021.xlsx', 
     file = 'data/raw/Energy_Stats_Infrastructure_2021.xlsx')
 
+# pull plant locations, save as geojson
 df = pd.read_excel(
         'data/raw/Energy_Stats_Infrastructure_2021.xlsx',
         sheet_name = 'LOOKUP PLANTS 2023-11-13')
@@ -19,7 +22,17 @@ df = pd.read_excel(
 gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.Latitude), crs='EPSG:4326').to_crs(3338).to_file(
     'data/derived/lookup_plants.geojson', driver='GeoJSON')
 
+# pull intertie lookup, save as geojson
+df = pd.read_excel(
+        'data/raw/Energy_Stats_Infrastructure_2021.xlsx',
+        sheet_name = 'LOOKUP INTERTIES 2023-11-08')
 
+df.to_csv('data/derived/lookup_interties.csv', index=False)
+
+
+
+
+### Generation Workbook
 
 # download generation xlsx from Energy Stats Github repo, save to file
 xlsx_url_to_file(
