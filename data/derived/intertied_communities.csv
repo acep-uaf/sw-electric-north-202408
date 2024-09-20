@@ -1,0 +1,216 @@
+,intertie_id,communities
+0,001-0000,Akhiok
+1,002-0000,Akiachak
+2,003-0000,Akiak
+3,004-0000,Akutan
+4,005-0000,Allakaket
+4,005-0000,Alatna
+5,007-0000,Bettles
+5,007-0000,Evansville
+6,009-0000,Eagle
+6,009-0000,Eagle Village
+7,011-0000,Healy Lake
+8,012-0000,Northway
+8,012-0000,Northway Village
+8,012-0000,Northway Junction
+9,014-1990,Cordova
+9,014-1990,Eyak
+11,015-2008,Tok
+11,015-2008,Tanacross
+11,015-2008,Tetlin
+11,015-2008,Dot Lake
+11,015-2008,Dot Lake Village
+17,023-2015,Craig
+17,023-2015,Klawock
+17,023-2015,Thorne Bay
+17,023-2015,Kasaan
+17,023-2015,Hollis
+17,023-2015,Hydaburg
+17,023-2015,Coffman Cove
+17,023-2015,Naukati Bay
+20,026-2012,Slana
+20,026-2012,Chistochina
+20,026-2012,Mentasta Lake
+22,032-1998,Haines
+22,032-1998,Covenant Life
+22,032-1998,Klukwan
+22,032-1998,Chilkat Valley
+22,032-1998,Skagway
+24,034-1988,Bethel
+24,034-1988,Oscarville
+24,034-1988,Napakiak
+25,035-0000,Ambler
+26,036-0000,Anvik
+27,039-0000,Brevig Mission
+28,040-0000,Chevak
+29,041-0000,Eek
+30,043-0000,Elim
+32,045-2016,Emmonak
+32,045-2016,Alakanuk
+33,046-0000,Gambell
+34,047-0000,Goodnews Bay
+35,048-0000,Grayling
+36,049-0000,Holy Cross
+37,050-0000,Hooper Bay
+38,051-0000,Huslia
+40,052-2005,Kalskag
+40,052-2005,Lower Kalskag
+41,054-0000,Kaltag
+43,055-2006,Kasigluk
+43,055-2006,Nunapitchuk
+44,057-0000,Kiana
+45,058-0000,Kivalina
+46,059-0000,Kotlik
+47,060-0000,Koyuk
+48,061-0000,Marshall
+49,062-0000,Mekoryuk
+50,063-0000,Minto
+52,065-2016,New Stuyahok
+52,065-2016,Ekwok
+53,066-0000,Noatak
+54,067-0000,Noorvik
+55,068-0000,Nulato
+56,069-0000,Old Harbor
+57,070-0000,Pilot Station
+58,071-0000,Quinhagak
+59,072-0000,Russian Mission
+61,075-2020,Saint Mary's
+61,075-2020,Andreafsky
+61,075-2020,Pitkas Point
+61,075-2020,Mountain Village
+63,076-0000,Savoonga
+64,077-0000,Scammon Bay
+65,078-0000,Selawik
+66,079-0000,Shageluk
+67,080-0000,Shaktoolik
+68,081-0000,Shishmaref
+70,084-2015,Stebbins
+70,084-2015,Saint Michael
+71,085-0000,Teller
+73,086-2020,Togiak
+73,086-2020,Twin Hills
+77,088-2008,Tooksook Bay
+77,088-2008,Tununak
+77,088-2008,Nightmute
+78,090-0000,Wales
+79,091-0000,Yakutat
+80,092-0000,Karluk
+81,093-0000,Aniak
+82,094-0000,Arctic Village
+83,095-0000,Atka
+84,096-0000,Atmautluak
+85,097-0000,Beaver
+86,098-0000,Birch Creek
+87,099-0000,Buckland
+88,100-0000,Chalkyitsik
+89,101-0000,Chenega Bay
+90,102-0000,Chignik Lagoon
+91,103-0000,Chignik Lake
+92,104-0000,Chignik
+93,105-0000,Chitina
+94,106-0000,Circle
+95,107-0000,Clark's Point
+96,110-0000,Diomede
+97,111-0000,Egegik
+98,112-0000,Elfin Cove
+99,113-0000,False Pass
+100,114-0000,Cold Bay
+101,115-0000,Galena
+102,116-0000,Central
+103,117-0000,Golovin
+104,118-0000,Gustavus
+105,119-0000,Fort Yukon
+106,120-0000,Hughes
+107,121-0000,Igiugig
+108,123-1983,Iliamna
+108,123-1983,Newhalen
+108,123-1983,Nondalton
+109,125-0000,Angoon
+110,128-0000,Hoonah
+111,129-0000,Kake
+112,130-0000,Deering
+113,131-0000,King Cove
+114,132-0000,Kipnuk
+115,134-0000,Kokhanok
+116,135-0000,Kotzebue
+117,136-0000,Koyukuk
+118,137-0000,Kwethluk
+119,138-0000,Kwigillingok
+120,139-0000,Larsen Bay
+121,140-0000,Levelock
+122,141-0000,Lime Village
+123,142-0000,Manokotak
+124,143-0000,McGrath
+125,144-0000,Chuathbaluk
+126,145-0000,Crooked Creek
+127,146-0000,Red Devil
+128,147-0000,Sleetmute
+129,148-0000,Stony River
+130,149-1980,Shungnak
+130,149-1980,Kobuk
+131,150-0000,Naknek
+131,150-0000,South Naknek
+131,150-0000,King Salmon
+132,153-0000,Napaskiak
+133,154-0000,Chefornak
+134,155-0000,Perryville
+135,156-0000,Nelson Lagoon
+136,157-0000,Koliganek
+137,158-0000,Nikolai
+138,159-0000,Nome
+139,160-0000,Anaktuvuk Pass
+140,161-0000,Atqasuk
+141,162-0000,Kaktovik
+142,163-0000,Nuiqsut
+143,164-0000,Point Hope
+144,165-0000,Point Lay
+145,166-0000,Wainwright
+146,167-0000,Nunam Iqua
+147,169-0000,Dillingham
+147,169-0000,Aleknagik
+148,170-0000,Ouzinkie
+149,171-0000,Pedro Bay
+150,172-0000,Pelican
+151,173-0000,Pilot Point
+152,174-0000,Platinum
+153,175-0000,Port Heiden
+154,176-0000,Kongiganak
+155,177-0000,Rampart
+156,178-0000,Ruby
+157,179-0000,Saint George
+158,180-0000,Saint Paul
+159,181-0000,Stevens Village
+160,182-0000,Takotna
+161,183-0000,Port Alsworth
+162,184-0000,Tanana
+163,185-0000,Tatitlek
+164,186-0000,Adak
+165,187-0000,Sand Point
+166,188-0000,Manley Hot Springs
+167,189-0000,Tenakee Springs
+168,190-0000,Tuluksak
+169,191-0000,Tuntutuliak
+170,193-0000,Nikolski
+171,194-0000,Unalakleet
+172,195-0000,Unalaska
+173,196-0000,Newtok
+174,197-0000,Venetie
+175,198-0000,White Mountain
+190,213-0000,Whale Pass
+192,215-1985,
+193,216-1982,
+194,217-2009,Ketchikan
+194,217-2009,Petersburg
+194,217-2009,Wrangell
+196,219-0000,Sitka
+197,221-0000,Utqiagvik
+198,222-0000,Juneau
+198,222-0000,Douglas
+199,223-0000,Kodiak
+199,223-0000,Kodiak Station
+199,223-0000,Port Lions
+199,223-0000,Chiniak
+199,223-0000,Woody Island
+200,224_0000,Deadhorse
+201,225_0000,Metlakatla
+202,226_0000,Paxson
