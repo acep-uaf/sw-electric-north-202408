@@ -13,7 +13,7 @@ def voltage_cleaning(input, output, voltage_limit):
 voltage_cleaning(
     input = 'data/source/Shapefile_export/AEA-Transmission_Lines-202200706/Alaska_Energy_Authority_Library.shp',
     output = 'data/derived/transmission.geojson',
-    voltage_limit = 0)
+    voltage_limit = 70)
 
 # test = gpd.read_file('data/raw/en_regional_grids_capacity.geojson')
 # test.explore()

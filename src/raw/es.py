@@ -20,14 +20,14 @@ df = pd.read_excel(
         sheet_name = 'LOOKUP PLANTS 2023-11-13')
 
 gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.Latitude), crs='EPSG:4326').to_crs(3338).to_file(
-    'data/derived/lookup_plants.geojson', driver='GeoJSON')
+    'data/raw/es_lookup_plants.geojson', driver='GeoJSON')
 
 # pull intertie lookup, save as geojson
 df = pd.read_excel(
         'data/raw/Energy_Stats_Infrastructure_2021.xlsx',
         sheet_name = 'LOOKUP INTERTIES 2023-11-08')
 
-df.to_csv('data/derived/lookup_interties.csv', index=False)
+df.to_csv('data/raw/es_lookup_interties.csv', index=False)
 
 
 
@@ -47,7 +47,7 @@ df = pd.read_excel(
 
 (gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.Longitude, df.Latitude), crs='EPSG:4326')
     .to_crs(3338)
-    .to_file('data/derived/lookup_sales_report.geojson', driver='GeoJSON'))
+    .to_file('data/raw/es_lookup_sales_report.geojson', driver='GeoJSON'))
 
 # test = gpd.read_file('data/derived/lookup_sales_report.geojson')
 
@@ -57,7 +57,7 @@ df = pd.read_excel(
         'data/raw/Energy_Stats_Generation_Tables.xlsx',
         sheet_name = 'AnnualOperationsData 2023-11-13')
 
-df.to_csv('data/derived/annual_operations.csv', index=False)
+df.to_csv('data/raw/es_annual_operations.csv', index=False)
 
 
 
@@ -66,7 +66,7 @@ df = pd.read_excel(
         'data/raw/Energy_Stats_Generation_Tables.xlsx',
         sheet_name = 'Monthly Gen 2001-2021')
 
-df.to_csv('data/derived/monthly_gen.csv', index=False)
+df.to_csv('data/raw/es_monthly_gen.csv', index=False)
 
 
 
@@ -79,6 +79,4 @@ df = pd.read_excel(
 
 
 
-df.to_csv('data/derived/gen_fuel_type.csv', index=False)
-
-load = pd.read_csv('data/derived/gen_fuel_type.csv')
+df.to_csv('data/raw/es_gen_fuel_type.csv', index=False)
