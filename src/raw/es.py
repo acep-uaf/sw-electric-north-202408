@@ -14,6 +14,7 @@ xlsx_url_to_file(
     xlsx_url = 'https://raw.githubusercontent.com/acep-uaf/ak-energy-statistics-2011_2021/main/workbooks/Energy_Stats_Infrastructure_2021.xlsx', 
     file = 'data/raw/Energy_Stats_Infrastructure_2021.xlsx')
 
+
 # pull plant locations, save as geojson
 df = pd.read_excel(
         'data/raw/Energy_Stats_Infrastructure_2021.xlsx',
@@ -21,6 +22,8 @@ df = pd.read_excel(
 
 gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.Latitude), crs='EPSG:4326').to_crs(3338).to_file(
     'data/raw/es_lookup_plants.geojson', driver='GeoJSON')
+
+
 
 # pull intertie lookup, save as geojson
 df = pd.read_excel(

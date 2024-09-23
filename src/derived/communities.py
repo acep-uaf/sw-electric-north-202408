@@ -1,27 +1,25 @@
-import yaml
 import geopandas as gpd
 
-com = gpd.read_file('data/raw/dcced_communities.geojson')
-com.explore()
+# pull interties
+lookup_interties = gpd.read_file('data/raw/es_lookup_interties.csv')
 
-# Define a dictionary that maps the current column names to their desired new names for renaming
-column_renames = {
-    'OBJECTID': 'id',
-    'CommunityName': 'community',
-    'CommunityTypeName': 'type'
-}
+# pull current interties
+current_interties = lookup_interties[lookup_interties['Current ID'] == 'True']
 
-df = (com[['OBJECTID', 'CommunityName', 'CommunityTypeName']]
-        .rename(columns=column_renames)
-        .assign(other_names='NA'))
+# change Tooksook to Toksook
 
 
+# pull intertie id and communities intertied, rename
+communities = current_interties[['intertie_id', 'Communities Intertied']]
+communities = communities.rename(columns={'Communities Intertied': 'community'})
 
-# df = com[['OBJECTID', 'CommunityName', 'CommunityTypeName', 'CommunityAreaTypeName']]
+# split on semi-colon and comma, explode out to more rows
+communities['community'] = communities['community'].str.split(r'[;,]\s*')
+communities_exploded = communities.explode('community')
+# communities_exploded.rename(columns={'communities':'community'}, inplace=True)
 
-test = yaml.dump(df.to_dict(orient='records'),default_flow_style=None)
+# need id for each community (GNIS?)
+# could have GNIS plus geometry
 
-with open('data/derived/communities.yaml', 'w') as file:
-    documents = yaml.dump({'result': df.to_dict(orient='records')}, file, default_flow_style=False)
-
-
+# write to file
+communities_exploded.to_csv('data/derived/communities.csv')
