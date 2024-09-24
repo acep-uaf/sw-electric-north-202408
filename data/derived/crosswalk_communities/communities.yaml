@@ -1,0 +1,1957 @@
+result:
+- community: Petersburg Census Area
+  id: 1475
+  other_names: NA
+  type: Census Area
+- community: Valdez-Cordova Census Area
+  id: 1476
+  other_names: NA
+  type: Census Area
+- community: North Lakes
+  id: 1477
+  other_names: NA
+  type: Locality
+- community: South Lakes
+  id: 1478
+  other_names: NA
+  type: Locality
+- community: Lake and Peninsula Borough
+  id: 1479
+  other_names: NA
+  type: Non-Unified Home Rule Borough
+- community: Denali Borough
+  id: 1480
+  other_names: NA
+  type: Non-Unified Home Rule Borough
+- community: North Slope Borough
+  id: 1481
+  other_names: NA
+  type: Non-Unified Home Rule Borough
+- community: Haines Borough
+  id: 1482
+  other_names: NA
+  type: Non-Unified Home Rule Borough
+- community: Voznesenka Village
+  id: 1483
+  other_names: NA
+  type: Locality
+- community: Northwest Arctic Borough
+  id: 1484
+  other_names: NA
+  type: Non-Unified Home Rule Borough
+- community: Petersburg Borough
+  id: 1485
+  other_names: NA
+  type: Non-Unified Home Rule Borough
+- community: Yakutat
+  id: 1486
+  other_names: NA
+  type: Non-Unified Home Rule Borough
+- community: Anchorage
+  id: 1487
+  other_names: NA
+  type: Unified Home Rule Borough
+- community: Juneau
+  id: 1488
+  other_names: NA
+  type: Unified Home Rule Borough
+- community: Sitka
+  id: 1489
+  other_names: NA
+  type: Unified Home Rule Borough
+- community: Wrangell
+  id: 1490
+  other_names: NA
+  type: Unified Home Rule Borough
+- community: Razdolna Village
+  id: 1492
+  other_names: NA
+  type: Locality
+- community: Ptarmigan Heights
+  id: 1493
+  other_names: NA
+  type: Locality
+- community: Ester Dome
+  id: 1494
+  other_names: NA
+  type: Locality
+- community: Haystack
+  id: 1495
+  other_names: NA
+  type: Locality
+- community: Kachemak Selo
+  id: 1496
+  other_names: NA
+  type: Locality
+- community: Klehini Valley
+  id: 1497
+  other_names: NA
+  type: Locality
+- community: Palmer
+  id: 1498
+  other_names: NA
+  type: Home Rule City
+- community: Seward
+  id: 1499
+  other_names: NA
+  type: Home Rule City
+- community: Soldotna
+  id: 1500
+  other_names: NA
+  type: Home Rule City
+- community: Valdez
+  id: 1501
+  other_names: NA
+  type: Home Rule City
+- community: Metlakatla
+  id: 1502
+  other_names: NA
+  type: Indian reservation organized under federal law
+- community: Chatanika
+  id: 1503
+  other_names: NA
+  type: Locality
+- community: Chena Hot Springs
+  id: 1504
+  other_names: NA
+  type: Locality
+- community: Nikolaevsk
+  id: 1506
+  other_names: NA
+  type: CDP
+- community: Ninilchik
+  id: 1507
+  other_names: NA
+  type: CDP
+- community: Noatak
+  id: 1508
+  other_names: NA
+  type: CDP
+- community: Pedro Bay
+  id: 1509
+  other_names: NA
+  type: CDP
+- community: Perryville
+  id: 1510
+  other_names: NA
+  type: CDP
+- community: Petersville
+  id: 1511
+  other_names: NA
+  type: CDP
+- community: Pleasant Valley
+  id: 1512
+  other_names: NA
+  type: CDP
+- community: Point Lay
+  id: 1513
+  other_names: NA
+  type: CDP
+- community: Point MacKenzie
+  id: 1514
+  other_names: NA
+  type: CDP
+- community: Port Graham
+  id: 1516
+  other_names: NA
+  type: CDP
+- community: Primrose
+  id: 1517
+  other_names: NA
+  type: CDP
+- community: Salamatof
+  id: 1519
+  other_names: NA
+  type: CDP
+- community: Salcha
+  id: 1520
+  other_names: NA
+  type: CDP
+- community: Seldovia Village
+  id: 1521
+  other_names: NA
+  type: CDP
+- community: South Naknek
+  id: 1522
+  other_names: NA
+  type: CDP
+- community: Sterling
+  id: 1523
+  other_names: NA
+  type: CDP
+- community: Susitna
+  id: 1524
+  other_names: NA
+  type: CDP
+- community: Sutton-Alpine
+  id: 1525
+  other_names: NA
+  type: CDP
+- community: Talkeetna
+  id: 1526
+  other_names: NA
+  type: CDP
+- community: Trapper Creek
+  id: 1527
+  other_names: NA
+  type: CDP
+- community: Two Rivers
+  id: 1528
+  other_names: NA
+  type: CDP
+- community: Tyonek
+  id: 1529
+  other_names: NA
+  type: CDP
+- community: Willow
+  id: 1530
+  other_names: NA
+  type: CDP
+- community: Cordova
+  id: 1531
+  other_names: NA
+  type: Home Rule City
+- community: Fairbanks
+  id: 1532
+  other_names: NA
+  type: Home Rule City
+- community: Kenai
+  id: 1533
+  other_names: NA
+  type: Home Rule City
+- community: Ketchikan
+  id: 1534
+  other_names: NA
+  type: Home Rule City
+- community: Kodiak
+  id: 1535
+  other_names: NA
+  type: Home Rule City
+- community: Nenana
+  id: 1536
+  other_names: NA
+  type: Home Rule City
+- community: North Pole
+  id: 1537
+  other_names: NA
+  type: Home Rule City
+- community: Shaktoolik
+  id: 1538
+  other_names: NA
+  type: 2nd Class City
+- community: Shishmaref
+  id: 1539
+  other_names: NA
+  type: 2nd Class City
+- community: Shungnak
+  id: 1540
+  other_names: NA
+  type: 2nd Class City
+- community: Stebbins
+  id: 1541
+  other_names: NA
+  type: 2nd Class City
+- community: Teller
+  id: 1542
+  other_names: NA
+  type: 2nd Class City
+- community: Tenakee Springs
+  id: 1543
+  other_names: NA
+  type: 2nd Class City
+- community: Thorne Bay
+  id: 1544
+  other_names: NA
+  type: 2nd Class City
+- community: Togiak
+  id: 1545
+  other_names: NA
+  type: 2nd Class City
+- community: Toksook Bay
+  id: 1546
+  other_names: NA
+  type: 2nd Class City
+- community: Unalakleet
+  id: 1547
+  other_names: NA
+  type: 2nd Class City
+- community: Upper Kalskag
+  id: 1548
+  other_names: NA
+  type: 2nd Class City
+- community: Wainwright
+  id: 1549
+  other_names: NA
+  type: 2nd Class City
+- community: Wales
+  id: 1550
+  other_names: NA
+  type: 2nd Class City
+- community: Whale Pass
+  id: 1551
+  other_names: NA
+  type: 2nd Class City
+- community: White Mountain
+  id: 1552
+  other_names: NA
+  type: 2nd Class City
+- community: Whittier
+  id: 1553
+  other_names: NA
+  type: 2nd Class City
+- community: Anchor Point
+  id: 1554
+  other_names: NA
+  type: CDP
+- community: Bear Creek
+  id: 1555
+  other_names: NA
+  type: CDP
+- community: Big Lake
+  id: 1556
+  other_names: NA
+  type: CDP
+- community: Butte
+  id: 1558
+  other_names: NA
+  type: CDP
+- community: Cantwell
+  id: 1559
+  other_names: NA
+  type: CDP
+- community: Chase
+  id: 1560
+  other_names: NA
+  type: CDP
+- community: Chickaloon
+  id: 1561
+  other_names: NA
+  type: CDP
+- community: Chignik Lagoon
+  id: 1562
+  other_names: NA
+  type: CDP
+- community: Chignik Lake
+  id: 1563
+  other_names: NA
+  type: CDP
+- community: Clam Gulch
+  id: 1564
+  other_names: NA
+  type: CDP
+- community: Cohoe
+  id: 1565
+  other_names: NA
+  type: CDP
+- community: Cooper Landing
+  id: 1566
+  other_names: NA
+  type: CDP
+- community: Crown Point
+  id: 1567
+  other_names: NA
+  type: CDP
+- community: Diamond Ridge
+  id: 1568
+  other_names: NA
+  type: CDP
+- community: Ester
+  id: 1569
+  other_names: NA
+  type: CDP
+- community: Fishhook
+  id: 1570
+  other_names: NA
+  type: CDP
+- community: Fox
+  id: 1571
+  other_names: NA
+  type: CDP
+- community: Fritz Creek
+  id: 1572
+  other_names: NA
+  type: CDP
+- community: Funny River
+  id: 1573
+  other_names: NA
+  type: CDP
+- community: Gateway
+  id: 1574
+  other_names: NA
+  type: CDP
+- community: Glacier View
+  id: 1575
+  other_names: NA
+  type: CDP
+- community: Goldstream
+  id: 1576
+  other_names: NA
+  type: CDP
+- community: Healy
+  id: 1578
+  other_names: NA
+  type: CDP
+- community: Hope
+  id: 1579
+  other_names: NA
+  type: CDP
+- community: Igiugig
+  id: 1580
+  other_names: NA
+  type: CDP
+- community: Iliamna
+  id: 1581
+  other_names: NA
+  type: CDP
+- community: Kalifornsky
+  id: 1582
+  other_names: NA
+  type: CDP
+- community: Karluk
+  id: 1583
+  other_names: NA
+  type: CDP
+- community: Kasilof
+  id: 1584
+  other_names: NA
+  type: CDP
+- community: King Salmon
+  id: 1585
+  other_names: NA
+  type: CDP
+- community: Lowell Point
+  id: 1586
+  other_names: NA
+  type: CDP
+- community: Meadow Lakes
+  id: 1587
+  other_names: NA
+  type: CDP
+- community: Moose Creek
+  id: 1588
+  other_names: NA
+  type: CDP
+- community: Moose Pass
+  id: 1589
+  other_names: NA
+  type: CDP
+- community: Naknek
+  id: 1590
+  other_names: NA
+  type: CDP
+- community: Nanwalek
+  id: 1591
+  other_names: NA
+  type: CDP
+- community: Nelson Lagoon
+  id: 1592
+  other_names: NA
+  type: CDP
+- community: Nikiski
+  id: 1593
+  other_names: NA
+  type: CDP
+- community: Knik River
+  id: 1594
+  other_names: NA
+  type: CDP
+- community: Knik-Fairview
+  id: 1595
+  other_names: NA
+  type: CDP
+- community: Kokhanok
+  id: 1596
+  other_names: NA
+  type: CDP
+- community: Lake Louise
+  id: 1597
+  other_names: NA
+  type: CDP
+- community: Levelock
+  id: 1599
+  other_names: NA
+  type: CDP
+- community: Denali Park
+  id: 1600
+  other_names: NA
+  type: CDP
+- community: Edna Bay
+  id: 1601
+  other_names: NA
+  type: 2nd Class City
+- community: Eek
+  id: 1602
+  other_names: NA
+  type: 2nd Class City
+- community: Egegik
+  id: 1603
+  other_names: NA
+  type: 2nd Class City
+- community: Ekwok
+  id: 1604
+  other_names: NA
+  type: 2nd Class City
+- community: Elim
+  id: 1605
+  other_names: NA
+  type: 2nd Class City
+- community: Emmonak
+  id: 1606
+  other_names: NA
+  type: 2nd Class City
+- community: Chevak
+  id: 1607
+  other_names: NA
+  type: 2nd Class City
+- community: Chuathbaluk
+  id: 1608
+  other_names: NA
+  type: 2nd Class City
+- community: Clark's Point
+  id: 1609
+  other_names: NA
+  type: 2nd Class City
+- community: Coffman Cove
+  id: 1610
+  other_names: NA
+  type: 2nd Class City
+- community: Cold Bay
+  id: 1611
+  other_names: NA
+  type: 2nd Class City
+- community: Deering
+  id: 1612
+  other_names: NA
+  type: 2nd Class City
+- community: Delta Junction
+  id: 1613
+  other_names: NA
+  type: 2nd Class City
+- community: Diomede
+  id: 1614
+  other_names: NA
+  type: 2nd Class City
+- community: Chignik
+  id: 1615
+  other_names: NA
+  type: 2nd Class City
+- community: Buckland
+  id: 1616
+  other_names: NA
+  type: 2nd Class City
+- community: Chefornak
+  id: 1617
+  other_names: NA
+  type: 2nd Class City
+- community: Atqasuk
+  id: 1618
+  other_names: NA
+  type: 2nd Class City
+- community: Bethel
+  id: 1619
+  other_names: NA
+  type: 2nd Class City
+- community: Bettles
+  id: 1620
+  other_names: NA
+  type: 2nd Class City
+- community: Brevig Mission
+  id: 1621
+  other_names: NA
+  type: 2nd Class City
+- community: Allakaket
+  id: 1622
+  other_names: NA
+  type: 2nd Class City
+- community: Ambler
+  id: 1623
+  other_names: NA
+  type: 2nd Class City
+- community: Anaktuvuk Pass
+  id: 1624
+  other_names: NA
+  type: 2nd Class City
+- community: Anderson
+  id: 1625
+  other_names: NA
+  type: 2nd Class City
+- community: Angoon
+  id: 1626
+  other_names: NA
+  type: 2nd Class City
+- community: Aniak
+  id: 1627
+  other_names: NA
+  type: 2nd Class City
+- community: Anvik
+  id: 1628
+  other_names: NA
+  type: 2nd Class City
+- community: Atka
+  id: 1629
+  other_names: NA
+  type: 2nd Class City
+- community: Skagway
+  id: 1630
+  other_names: NA
+  type: 1st Class Borough
+- community: Craig
+  id: 1631
+  other_names: NA
+  type: 1st Class City
+- community: Dillingham
+  id: 1632
+  other_names: NA
+  type: 1st Class City
+- community: Galena
+  id: 1633
+  other_names: NA
+  type: 1st Class City
+- community: Homer
+  id: 1634
+  other_names: NA
+  type: 1st Class City
+- community: Hoonah
+  id: 1635
+  other_names: NA
+  type: 1st Class City
+- community: Hydaburg
+  id: 1636
+  other_names: NA
+  type: 1st Class City
+- community: Kake
+  id: 1637
+  other_names: NA
+  type: 1st Class City
+- community: King Cove
+  id: 1638
+  other_names: NA
+  type: 1st Class City
+- community: Klawock
+  id: 1639
+  other_names: NA
+  type: 1st Class City
+- community: Nome
+  id: 1640
+  other_names: NA
+  type: 1st Class City
+- community: Pelican
+  id: 1641
+  other_names: NA
+  type: 1st Class City
+- community: Saint Mary's
+  id: 1642
+  other_names: NA
+  type: 1st Class City
+- community: Sand Point
+  id: 1643
+  other_names: NA
+  type: 1st Class City
+- community: Seldovia
+  id: 1644
+  other_names: NA
+  type: 1st Class City
+- community: Unalaska
+  id: 1646
+  other_names: NA
+  type: 1st Class City
+- community: Utqiagvik
+  id: 1647
+  other_names: NA
+  type: 1st Class City
+- community: Wasilla
+  id: 1648
+  other_names: NA
+  type: 1st Class City
+- community: Aleutians East Borough
+  id: 1649
+  other_names: NA
+  type: 2nd Class Borough
+- community: Fairbanks North Star Borough
+  id: 1651
+  other_names: NA
+  type: 2nd Class Borough
+- community: Kenai Peninsula Borough
+  id: 1652
+  other_names: NA
+  type: 2nd Class Borough
+- community: Ketchikan Gateway Borough
+  id: 1653
+  other_names: NA
+  type: 2nd Class Borough
+- community: Kodiak Island Borough
+  id: 1654
+  other_names: NA
+  type: 2nd Class Borough
+- community: Matanuska-Susitna Borough
+  id: 1655
+  other_names: NA
+  type: 2nd Class Borough
+- community: Adak
+  id: 1656
+  other_names: NA
+  type: 2nd Class City
+- community: Akhiok
+  id: 1657
+  other_names: NA
+  type: 2nd Class City
+- community: Akiak
+  id: 1658
+  other_names: NA
+  type: 2nd Class City
+- community: Akutan
+  id: 1659
+  other_names: NA
+  type: 2nd Class City
+- community: Alakanuk
+  id: 1660
+  other_names: NA
+  type: 2nd Class City
+- community: Aleknagik
+  id: 1661
+  other_names: NA
+  type: 2nd Class City
+- community: False Pass
+  id: 1662
+  other_names: NA
+  type: 2nd Class City
+- community: Fort Yukon
+  id: 1663
+  other_names: NA
+  type: 2nd Class City
+- community: Gambell
+  id: 1664
+  other_names: NA
+  type: 2nd Class City
+- community: Golovin
+  id: 1665
+  other_names: NA
+  type: 2nd Class City
+- community: Goodnews Bay
+  id: 1666
+  other_names: NA
+  type: 2nd Class City
+- community: Grayling
+  id: 1667
+  other_names: NA
+  type: 2nd Class City
+- community: Gustavus
+  id: 1668
+  other_names: NA
+  type: 2nd Class City
+- community: Holy Cross
+  id: 1669
+  other_names: NA
+  type: 2nd Class City
+- community: Houston
+  id: 1671
+  other_names: NA
+  type: 2nd Class City
+- community: Hughes
+  id: 1672
+  other_names: NA
+  type: 2nd Class City
+- community: Huslia
+  id: 1673
+  other_names: NA
+  type: 2nd Class City
+- community: Kachemak
+  id: 1674
+  other_names: NA
+  type: 2nd Class City
+- community: Kaktovik
+  id: 1675
+  other_names: NA
+  type: 2nd Class City
+- community: Kaltag
+  id: 1676
+  other_names: NA
+  type: 2nd Class City
+- community: Kasaan
+  id: 1677
+  other_names: NA
+  type: 2nd Class City
+- community: Kiana
+  id: 1678
+  other_names: NA
+  type: 2nd Class City
+- community: Kivalina
+  id: 1679
+  other_names: NA
+  type: 2nd Class City
+- community: Kobuk
+  id: 1680
+  other_names: NA
+  type: 2nd Class City
+- community: Kotlik
+  id: 1681
+  other_names: NA
+  type: 2nd Class City
+- community: Kotzebue
+  id: 1682
+  other_names: NA
+  type: 2nd Class City
+- community: Koyuk
+  id: 1683
+  other_names: NA
+  type: 2nd Class City
+- community: Koyukuk
+  id: 1684
+  other_names: NA
+  type: 2nd Class City
+- community: Kupreanof
+  id: 1685
+  other_names: NA
+  type: 2nd Class City
+- community: Kwethluk
+  id: 1686
+  other_names: NA
+  type: 2nd Class City
+- community: Larsen Bay
+  id: 1687
+  other_names: NA
+  type: 2nd Class City
+- community: Lower Kalskag
+  id: 1688
+  other_names: NA
+  type: 2nd Class City
+- community: Manokotak
+  id: 1689
+  other_names: NA
+  type: 2nd Class City
+- community: Marshall
+  id: 1690
+  other_names: NA
+  type: 2nd Class City
+- community: McGrath
+  id: 1691
+  other_names: NA
+  type: 2nd Class City
+- community: Mekoryuk
+  id: 1692
+  other_names: NA
+  type: 2nd Class City
+- community: Napakiak
+  id: 1694
+  other_names: NA
+  type: 2nd Class City
+- community: Napaskiak
+  id: 1695
+  other_names: NA
+  type: 2nd Class City
+- community: Newhalen
+  id: 1697
+  other_names: NA
+  type: 2nd Class City
+- community: Nightmute
+  id: 1698
+  other_names: NA
+  type: 2nd Class City
+- community: Nikolai
+  id: 1699
+  other_names: NA
+  type: 2nd Class City
+- community: Nondalton
+  id: 1700
+  other_names: NA
+  type: 2nd Class City
+- community: Noorvik
+  id: 1701
+  other_names: NA
+  type: 2nd Class City
+- community: Nuiqsut
+  id: 1702
+  other_names: NA
+  type: 2nd Class City
+- community: Nulato
+  id: 1703
+  other_names: NA
+  type: 2nd Class City
+- community: Nunam Iqua
+  id: 1704
+  other_names: NA
+  type: 2nd Class City
+- community: Nunapitchuk
+  id: 1705
+  other_names: NA
+  type: 2nd Class City
+- community: Old Harbor
+  id: 1706
+  other_names: NA
+  type: 2nd Class City
+- community: Ouzinkie
+  id: 1707
+  other_names: NA
+  type: 2nd Class City
+- community: Pilot Point
+  id: 1708
+  other_names: NA
+  type: 2nd Class City
+- community: Pilot Station
+  id: 1709
+  other_names: NA
+  type: 2nd Class City
+- community: Platinum
+  id: 1710
+  other_names: NA
+  type: 2nd Class City
+- community: Point Hope
+  id: 1711
+  other_names: NA
+  type: 2nd Class City
+- community: Port Alexander
+  id: 1712
+  other_names: NA
+  type: 2nd Class City
+- community: Port Heiden
+  id: 1713
+  other_names: NA
+  type: 2nd Class City
+- community: Port Lions
+  id: 1714
+  other_names: NA
+  type: 2nd Class City
+- community: Quinhagak
+  id: 1715
+  other_names: NA
+  type: 2nd Class City
+- community: Ruby
+  id: 1716
+  other_names: NA
+  type: 2nd Class City
+- community: Russian Mission
+  id: 1717
+  other_names: NA
+  type: 2nd Class City
+- community: Saint George
+  id: 1718
+  other_names: NA
+  type: 2nd Class City
+- community: Saint Paul
+  id: 1720
+  other_names: NA
+  type: 2nd Class City
+- community: Savoonga
+  id: 1721
+  other_names: NA
+  type: 2nd Class City
+- community: Saxman
+  id: 1722
+  other_names: NA
+  type: 2nd Class City
+- community: Scammon Bay
+  id: 1723
+  other_names: NA
+  type: 2nd Class City
+- community: Selawik
+  id: 1724
+  other_names: NA
+  type: 2nd Class City
+- community: Shageluk
+  id: 1725
+  other_names: NA
+  type: 2nd Class City
+- community: Chugach Census Area
+  id: 1726
+  other_names: NA
+  type: Census Area
+- community: Prince of Wales-Hyder Census Area
+  id: 1727
+  other_names: NA
+  type: Census Area
+- community: Indian
+  id: 1728
+  other_names: NA
+  type: Locality
+- community: Aleutians West Census Area
+  id: 1729
+  other_names: NA
+  type: Census Area
+- community: Bird Creek
+  id: 1730
+  other_names: NA
+  type: Locality
+- community: Northway Junction
+  id: 1731
+  other_names: NA
+  type: Unincorporated
+- community: Port Clarence
+  id: 1732
+  other_names: NA
+  type: Unincorporated CDP
+- community: Portage Creek
+  id: 1733
+  other_names: NA
+  type: Unincorporated CDP
+- community: Tonsina
+  id: 1734
+  other_names: NA
+  type: Unincorporated CDP
+- community: Whitestone Logging Camp
+  id: 1735
+  other_names: NA
+  type: Unincorporated CDP
+- community: Willow Creek
+  id: 1736
+  other_names: NA
+  type: Unincorporated CDP
+- community: Wiseman
+  id: 1737
+  other_names: NA
+  type: Unincorporated CDP
+- community: Alaska
+  id: 1738
+  other_names: NA
+  type: State
+- community: Attu Station
+  id: 1739
+  other_names: NA
+  type: Unincorporated CDP
+- community: Chicken
+  id: 1741
+  other_names: NA
+  type: Unincorporated CDP
+- community: Chisana
+  id: 1742
+  other_names: NA
+  type: Unincorporated CDP
+- community: Coldfoot
+  id: 1743
+  other_names: NA
+  type: Unincorporated CDP
+- community: Evansville
+  id: 1745
+  other_names: NA
+  type: Unincorporated CDP
+- community: Flat
+  id: 1746
+  other_names: NA
+  type: Unincorporated CDP
+- community: Game Creek
+  id: 1748
+  other_names: NA
+  type: Unincorporated CDP
+- community: Lake Minchumina
+  id: 1749
+  other_names: NA
+  type: Unincorporated CDP
+- community: Livengood
+  id: 1750
+  other_names: NA
+  type: Unincorporated CDP
+- community: Mertarvik
+  id: 1751
+  other_names: NA
+  type: Unincorporated CDP
+- community: Nabesna
+  id: 1752
+  other_names: NA
+  type: Unincorporated CDP
+- community: New Allakaket
+  id: 1753
+  other_names: NA
+  type: Unincorporated
+- community: Kanatak
+  id: 1755
+  other_names: NA
+  type: Locality
+- community: Knik
+  id: 1756
+  other_names: NA
+  type: Locality
+- community: Lignite
+  id: 1757
+  other_names: NA
+  type: Locality
+- community: Litnik
+  id: 1758
+  other_names: NA
+  type: Locality
+- community: Meyers Chuck
+  id: 1759
+  other_names: NA
+  type: Locality
+- community: Millers Landing
+  id: 1760
+  other_names: NA
+  type: Locality
+- community: Mountain Point
+  id: 1761
+  other_names: NA
+  type: Locality
+- community: Oliktok
+  id: 1762
+  other_names: NA
+  type: Locality
+- community: Pauloff Harbor
+  id: 1763
+  other_names: NA
+  type: Locality
+- community: Pennock Island
+  id: 1764
+  other_names: NA
+  type: Locality
+- community: Peters Creek
+  id: 1765
+  other_names: NA
+  type: Locality
+- community: Petersburg
+  id: 1766
+  other_names: NA
+  type: CDP
+- community: Pile Bay
+  id: 1767
+  other_names: NA
+  type: Locality
+- community: Port Moller
+  id: 1768
+  other_names: NA
+  type: Locality
+- community: Port William
+  id: 1769
+  other_names: NA
+  type: Locality
+- community: Portage
+  id: 1770
+  other_names: NA
+  type: Locality
+- community: Portlock
+  id: 1771
+  other_names: NA
+  type: Locality
+- community: Rabbit Creek
+  id: 1772
+  other_names: NA
+  type: Locality
+- community: Sanak
+  id: 1773
+  other_names: NA
+  type: Locality
+- community: Shuyak Island
+  id: 1774
+  other_names: NA
+  type: Locality
+- community: Squaw Harbor
+  id: 1775
+  other_names: NA
+  type: Locality
+- community: Suntrana
+  id: 1776
+  other_names: NA
+  type: Locality
+- community: Thane
+  id: 1777
+  other_names: NA
+  type: Locality
+- community: Thoms Place
+  id: 1778
+  other_names: NA
+  type: Locality
+- community: Uganik
+  id: 1779
+  other_names: NA
+  type: Locality
+- community: Umiat
+  id: 1780
+  other_names: NA
+  type: Locality
+- community: Unga
+  id: 1781
+  other_names: NA
+  type: Locality
+- community: Usibelli
+  id: 1782
+  other_names: NA
+  type: Locality
+- community: Uyak
+  id: 1783
+  other_names: NA
+  type: Locality
+- community: Ward Cove
+  id: 1784
+  other_names: NA
+  type: Locality
+- community: Williamsport
+  id: 1785
+  other_names: NA
+  type: Locality
+- community: Woody Island
+  id: 1786
+  other_names: NA
+  type: Locality
+- community: Adak Station
+  id: 1787
+  other_names: NA
+  type: Unincorporated
+- community: Andreafsky
+  id: 1788
+  other_names: NA
+  type: Unincorporated
+- community: Bill Moore's Slough
+  id: 1789
+  other_names: NA
+  type: Unincorporated
+- community: Boundary
+  id: 1790
+  other_names: NA
+  type: Unincorporated
+- community: Canyon Village
+  id: 1791
+  other_names: NA
+  type: Unincorporated
+- community: Chuloonawick
+  id: 1792
+  other_names: NA
+  type: Unincorporated
+- community: Circle Hot Springs
+  id: 1793
+  other_names: NA
+  type: Unincorporated
+- community: Copperville
+  id: 1794
+  other_names: NA
+  type: Unincorporated
+- community: Council
+  id: 1795
+  other_names: NA
+  type: Unincorporated
+- community: Cube Cove
+  id: 1796
+  other_names: NA
+  type: Unincorporated
+- community: Ekuk
+  id: 1797
+  other_names: NA
+  type: Unincorporated
+- community: Eyak
+  id: 1798
+  other_names: NA
+  type: Unincorporated
+- community: Fort Glenn
+  id: 1799
+  other_names: NA
+  type: Unincorporated
+- community: Georgetown
+  id: 1800
+  other_names: NA
+  type: Unincorporated
+- community: Hamilton
+  id: 1801
+  other_names: NA
+  type: Unincorporated
+- community: Iditarod
+  id: 1802
+  other_names: NA
+  type: Unincorporated
+- community: King Island
+  id: 1803
+  other_names: NA
+  type: Unincorporated
+- community: Mary's Igloo
+  id: 1804
+  other_names: NA
+  type: Unincorporated
+- community: Medfra
+  id: 1805
+  other_names: NA
+  type: Unincorporated
+- community: Napaimute
+  id: 1806
+  other_names: NA
+  type: Unincorporated
+- community: Nunivak Island
+  id: 1807
+  other_names: NA
+  type: Unincorporated
+- community: Ohogamiut
+  id: 1808
+  other_names: NA
+  type: Unincorporated
+- community: Ophir
+  id: 1809
+  other_names: NA
+  type: Unincorporated
+- community: Paimiut
+  id: 1810
+  other_names: NA
+  type: Unincorporated
+- community: Poorman
+  id: 1811
+  other_names: NA
+  type: Unincorporated
+- community: Saint Lawrence Island
+  id: 1812
+  other_names: NA
+  type: Unincorporated
+- community: Solomon
+  id: 1815
+  other_names: NA
+  type: Unincorporated
+- community: Telida
+  id: 1816
+  other_names: NA
+  type: Unincorporated
+- community: Umkumiute
+  id: 1817
+  other_names: NA
+  type: Unincorporated
+- community: Alcan Border
+  id: 1818
+  other_names: NA
+  type: Unincorporated CDP
+- community: Deltana
+  id: 1819
+  other_names: NA
+  type: Unincorporated CDP
+- community: Dry Creek
+  id: 1821
+  other_names: NA
+  type: Unincorporated CDP
+- community: Elfin Cove
+  id: 1822
+  other_names: NA
+  type: Unincorporated CDP
+- community: Gakona
+  id: 1824
+  other_names: NA
+  type: Unincorporated CDP
+- community: Glennallen
+  id: 1825
+  other_names: NA
+  type: Unincorporated CDP
+- community: Gulkana
+  id: 1826
+  other_names: NA
+  type: Unincorporated CDP
+- community: Healy Lake
+  id: 1827
+  other_names: NA
+  type: Unincorporated CDP
+- community: Hollis
+  id: 1828
+  other_names: NA
+  type: Unincorporated CDP
+- community: Hyder
+  id: 1829
+  other_names: NA
+  type: Unincorporated CDP
+- community: Kasigluk
+  id: 1830
+  other_names: NA
+  type: Unincorporated CDP
+- community: Kenny Lake
+  id: 1831
+  other_names: NA
+  type: Unincorporated CDP
+- community: Kipnuk
+  id: 1832
+  other_names: NA
+  type: Unincorporated CDP
+- community: Gold Sand Acres
+  id: 1833
+  other_names: NA
+  type: Unincorporated
+- community: Akiachak
+  id: 1834
+  other_names: NA
+  type: Unincorporated CDP
+- community: Alatna
+  id: 1835
+  other_names: NA
+  type: Unincorporated CDP
+- community: Arctic Village
+  id: 1836
+  other_names: NA
+  type: Unincorporated CDP
+- community: Atmautluak
+  id: 1837
+  other_names: NA
+  type: Unincorporated CDP
+- community: Beaver
+  id: 1838
+  other_names: NA
+  type: Unincorporated CDP
+- community: Birch Creek
+  id: 1839
+  other_names: NA
+  type: Unincorporated CDP
+- community: Central
+  id: 1840
+  other_names: NA
+  type: Unincorporated CDP
+- community: Chalkyitsik
+  id: 1841
+  other_names: NA
+  type: Unincorporated CDP
+- community: Chenega
+  id: 1842
+  other_names: NA
+  type: Unincorporated CDP
+- community: Chistochina
+  id: 1843
+  other_names: NA
+  type: Unincorporated CDP
+- community: Chitina
+  id: 1844
+  other_names: NA
+  type: Unincorporated CDP
+- community: Circle
+  id: 1845
+  other_names: NA
+  type: Unincorporated CDP
+- community: Copper Center
+  id: 1846
+  other_names: NA
+  type: Unincorporated CDP
+- community: Crooked Creek
+  id: 1847
+  other_names: NA
+  type: Unincorporated CDP
+- community: Klukwan
+  id: 1848
+  other_names: NA
+  type: Unincorporated CDP
+- community: Koliganek
+  id: 1849
+  other_names: NA
+  type: Unincorporated CDP
+- community: Kongiganak
+  id: 1850
+  other_names: NA
+  type: Unincorporated CDP
+- community: Kwigillingok
+  id: 1851
+  other_names: NA
+  type: Unincorporated CDP
+- community: Lime Village
+  id: 1852
+  other_names: NA
+  type: Unincorporated CDP
+- community: Manley Hot Springs
+  id: 1853
+  other_names: NA
+  type: Unincorporated CDP
+- community: McCarthy
+  id: 1854
+  other_names: NA
+  type: Unincorporated CDP
+- community: Mendeltna
+  id: 1855
+  other_names: NA
+  type: Unincorporated CDP
+- community: Mentasta Lake
+  id: 1856
+  other_names: NA
+  type: Unincorporated CDP
+- community: Minto
+  id: 1857
+  other_names: NA
+  type: Unincorporated CDP
+- community: Naukati Bay
+  id: 1858
+  other_names: NA
+  type: Unincorporated CDP
+- community: Nelchina
+  id: 1859
+  other_names: NA
+  type: Unincorporated CDP
+- community: Newtok
+  id: 1860
+  other_names: NA
+  type: Unincorporated CDP
+- community: Nikolski
+  id: 1861
+  other_names: NA
+  type: Unincorporated CDP
+- community: Oscarville
+  id: 1863
+  other_names: NA
+  type: Unincorporated CDP
+- community: Paxson
+  id: 1864
+  other_names: NA
+  type: Unincorporated CDP
+- community: Pitkas Point
+  id: 1865
+  other_names: NA
+  type: Unincorporated CDP
+- community: Point Baker
+  id: 1866
+  other_names: NA
+  type: Unincorporated CDP
+- community: Port Protection
+  id: 1867
+  other_names: NA
+  type: Unincorporated CDP
+- community: Rampart
+  id: 1868
+  other_names: NA
+  type: Unincorporated CDP
+- community: Red Devil
+  id: 1869
+  other_names: NA
+  type: Unincorporated CDP
+- community: Silver Springs
+  id: 1870
+  other_names: NA
+  type: Unincorporated CDP
+- community: Slana
+  id: 1871
+  other_names: NA
+  type: Unincorporated CDP
+- community: Sleetmute
+  id: 1872
+  other_names: NA
+  type: Unincorporated CDP
+- community: Stevens Village
+  id: 1873
+  other_names: NA
+  type: Unincorporated CDP
+- community: Stony River
+  id: 1874
+  other_names: NA
+  type: Unincorporated CDP
+- community: Takotna
+  id: 1875
+  other_names: NA
+  type: Unincorporated CDP
+- community: Tanacross
+  id: 1876
+  other_names: NA
+  type: Unincorporated CDP
+- community: Tatitlek
+  id: 1877
+  other_names: NA
+  type: Unincorporated CDP
+- community: Tazlina
+  id: 1878
+  other_names: NA
+  type: Unincorporated CDP
+- community: Tetlin
+  id: 1879
+  other_names: NA
+  type: Unincorporated CDP
+- community: Tok
+  id: 1880
+  other_names: NA
+  type: Unincorporated CDP
+- community: Tolsona
+  id: 1881
+  other_names: NA
+  type: Unincorporated CDP
+- community: Tuluksak
+  id: 1882
+  other_names: NA
+  type: Unincorporated CDP
+- community: Tuntutuliak
+  id: 1883
+  other_names: NA
+  type: Unincorporated CDP
+- community: Tununak
+  id: 1884
+  other_names: NA
+  type: Unincorporated CDP
+- community: Twin Hills
+  id: 1885
+  other_names: NA
+  type: Unincorporated CDP
+- community: Venetie
+  id: 1886
+  other_names: NA
+  type: Unincorporated CDP
+- community: Whitestone
+  id: 1887
+  other_names: NA
+  type: Unincorporated CDP
+- community: Aleneva
+  id: 1888
+  other_names: NA
+  type: CDP
+- community: Badger
+  id: 1889
+  other_names: NA
+  type: CDP
+- community: Beluga
+  id: 1890
+  other_names: NA
+  type: CDP
+- community: Chena Ridge
+  id: 1891
+  other_names: NA
+  type: CDP
+- community: Chiniak
+  id: 1892
+  other_names: NA
+  type: CDP
+- community: College
+  id: 1893
+  other_names: NA
+  type: CDP
+- community: Covenant Life
+  id: 1894
+  other_names: NA
+  type: CDP
+- community: Eielson AFB
+  id: 1895
+  other_names: NA
+  type: CDP
+- community: Eureka Roadhouse
+  id: 1896
+  other_names: NA
+  type: CDP
+- community: Excursion Inlet
+  id: 1897
+  other_names: NA
+  type: CDP
+- community: Farm Loop
+  id: 1898
+  other_names: NA
+  type: CDP
+- community: Farmers Loop
+  id: 1899
+  other_names: NA
+  type: CDP
+- community: Ferry
+  id: 1900
+  other_names: NA
+  type: CDP
+- community: Fox River
+  id: 1901
+  other_names: NA
+  type: CDP
+- community: Halibut Cove
+  id: 1902
+  other_names: NA
+  type: CDP
+- community: Harding-Birch Lakes
+  id: 1903
+  other_names: NA
+  type: CDP
+- community: Hobart Bay
+  id: 1904
+  other_names: NA
+  type: CDP
+- community: Ivanof Bay
+  id: 1905
+  other_names: NA
+  type: CDP
+- community: Kodiak Station
+  id: 1906
+  other_names: NA
+  type: CDP
+- community: Lakes
+  id: 1907
+  other_names: NA
+  type: Locality
+- community: Loring
+  id: 1908
+  other_names: NA
+  type: CDP
+- community: Lutak
+  id: 1909
+  other_names: NA
+  type: CDP
+- community: Mosquito Lake
+  id: 1910
+  other_names: NA
+  type: CDP
+- community: Mud Bay
+  id: 1911
+  other_names: NA
+  type: CDP
+- community: Point Possession
+  id: 1912
+  other_names: NA
+  type: CDP
+- community: Pope-Vannoy Landing
+  id: 1913
+  other_names: NA
+  type: CDP
+- community: Prudhoe Bay
+  id: 1914
+  other_names: NA
+  type: CDP
+- community: Red Dog Mine
+  id: 1915
+  other_names: NA
+  type: CDP
+- community: Skwentna
+  id: 1916
+  other_names: NA
+  type: CDP
+- community: South Van Horn
+  id: 1917
+  other_names: NA
+  type: CDP
+- community: Steele Creek
+  id: 1918
+  other_names: NA
+  type: CDP
+- community: Sunrise
+  id: 1919
+  other_names: NA
+  type: CDP
+- community: Susitna North
+  id: 1920
+  other_names: NA
+  type: CDP
+- community: Ugashik
+  id: 1922
+  other_names: NA
+  type: CDP
+- community: Womens Bay
+  id: 1923
+  other_names: NA
+  type: CDP
+- community: Afognak
+  id: 1924
+  other_names: NA
+  type: Locality
+- community: Alexander Creek
+  id: 1925
+  other_names: NA
+  type: Locality
+- community: Alpine
+  id: 1926
+  other_names: NA
+  type: Locality
+- community: Auke Bay
+  id: 1927
+  other_names: NA
+  type: Locality
+- community: Ayakulik
+  id: 1928
+  other_names: NA
+  type: Locality
+- community: Belkofski
+  id: 1929
+  other_names: NA
+  type: Locality
+- community: Birchwood
+  id: 1930
+  other_names: NA
+  type: Locality
+- community: Candle
+  id: 1931
+  other_names: NA
+  type: Locality
+- community: Cape Lisburne
+  id: 1932
+  other_names: NA
+  type: Locality
+- community: Cape Yakataga
+  id: 1933
+  other_names: NA
+  type: Locality
+- community: Chugiak
+  id: 1934
+  other_names: NA
+  type: Locality
+- community: Circle View Stampede
+  id: 1935
+  other_names: NA
+  type: Locality
+- community: Clear
+  id: 1936
+  other_names: NA
+  type: Locality
+- community: Douglas
+  id: 1937
+  other_names: NA
+  type: Locality
+- community: Eagle River
+  id: 1938
+  other_names: NA
+  type: Locality
+- community: Eklutna
+  id: 1939
+  other_names: NA
+  type: Locality
+- community: Fort Wainwright
+  id: 1940
+  other_names: NA
+  type: Locality
+- community: Girdwood
+  id: 1941
+  other_names: NA
+  type: Locality
+- community: Jakolof Bay
+  id: 1942
+  other_names: NA
+  type: Locality
+- community: Kaguyak
+  id: 1943
+  other_names: NA
+  type: Locality
+- community: Haines
+  id: 1944
+  other_names: NA
+  type: CDP
+- community: Bethel Census Area
+  id: 1945
+  other_names: NA
+  type: Census Area
+- community: Hoonah-Angoon Census Area
+  id: 1946
+  other_names: NA
+  type: Census Area
+- community: Klawock Lake
+  id: 1947
+  other_names: NA
+  type: Unincorporated
+- community: Nome Census Area
+  id: 1948
+  other_names: NA
+  type: Census Area
+- community: Southeast Fairbanks Census Area
+  id: 1949
+  other_names: NA
+  type: Census Area
+- community: Kusilvak Census Area
+  id: 1950
+  other_names: NA
+  type: Census Area
+- community: Joint Base Elmendorf-Richardson
+  id: 1951
+  other_names: NA
+  type: Locality
+- community: South Lakes
+  id: 1952
+  other_names: NA
+  type: CDP
+- community: Mill Bay
+  id: 1954
+  other_names: NA
+  type: CDP
+- community: Copper River Census Area
+  id: 1955
+  other_names: NA
+  type: Census Area
+- community: Caswell
+  id: 1956
+  other_names: NA
+  type: Locality
+- community: Yukon-Koyukuk Census Area
+  id: 1957
+  other_names: NA
+  type: Census Area
+- community: Dillingham Census Area
+  id: 1958
+  other_names: NA
+  type: Census Area
+- community: Eagle Village
+  id: 1959
+  other_names: NA
+  type: Unincorporated CDP
+- community: Eagle
+  id: 1960
+  other_names: NA
+  type: 2nd Class City
+- community: ' N/A'
+  id: 1963
+  other_names: NA
+  type: State
+- community: Big Salt
+  id: 1491
+  other_names: NA
+  type: Unincorporated
+- community: Dyea
+  id: 1505
+  other_names: NA
+  type: Locality
+- community: Port Alsworth
+  id: 1515
+  other_names: NA
+  type: CDP
+- community: Ridgeway
+  id: 1518
+  other_names: NA
+  type: CDP
+- community: Buffalo Soapstone
+  id: 1557
+  other_names: NA
+  type: CDP
+- community: Happy Valley
+  id: 1577
+  other_names: NA
+  type: CDP
+- community: Lazy Mountain
+  id: 1598
+  other_names: NA
+  type: CDP
+- community: Tanana
+  id: 1645
+  other_names: NA
+  type: 2nd Class City
+- community: Bristol Bay Borough
+  id: 1650
+  other_names: NA
+  type: 2nd Class Borough
+- community: Hooper Bay
+  id: 1670
+  other_names: NA
+  type: 2nd Class City
+- community: Mountain Village
+  id: 1693
+  other_names: NA
+  type: 2nd Class City
+- community: New Stuyahok
+  id: 1696
+  other_names: NA
+  type: 2nd Class City
+- community: Saint Michael
+  id: 1719
+  other_names: NA
+  type: 2nd Class City
+- community: Big Delta
+  id: 1740
+  other_names: NA
+  type: Unincorporated CDP
+- community: Dot Lake Village
+  id: 1744
+  other_names: NA
+  type: Unincorporated CDP
+- community: Fort Greely
+  id: 1747
+  other_names: NA
+  type: Unincorporated CDP
+- community: Northway
+  id: 1754
+  other_names: NA
+  type: Unincorporated CDP
+- community: Shakan Bay
+  id: 1813
+  other_names: NA
+  type: Unincorporated
+- community: Eareckson Station
+  id: 1814
+  other_names: NA
+  type: Unincorporated CDP
+- community: Dot Lake
+  id: 1820
+  other_names: NA
+  type: Unincorporated CDP
+- community: Four Mile Road
+  id: 1823
+  other_names: NA
+  type: Unincorporated CDP
+- community: Northway Village
+  id: 1862
+  other_names: NA
+  type: Unincorporated
+- community: Tanaina
+  id: 1921
+  other_names: NA
+  type: CDP
+- community: North Lakes
+  id: 1953
+  other_names: NA
+  type: CDP
+- community: Igushik
+  id: 1961
+  other_names: NA
+  type: Unincorporated
+- community: Lewis Point
+  id: 1962
+  other_names: NA
+  type: Unincorporated
