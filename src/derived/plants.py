@@ -15,6 +15,7 @@ plants.rename(inplace=True, columns={
     'INTERTIE_Current Intertie name':'current_intertie_name',
     'Currently Reports to EIA':'eia_reporting',
     'Currently Reports to PCE':'pce_reporting',
+    'nameplate_capacity':'capacity_mw',
     'OPERATOR_Operator_name':'operator_name',
     'OPERATOR_sector__id':'operator_sector_id',
     'OPERATOR_sector__name':'operator_sector_name',

@@ -23,3 +23,4 @@ communities_exploded = communities.explode('community')
 
 # write to file
 communities_exploded.to_csv('data/derived/communities.csv')
+
