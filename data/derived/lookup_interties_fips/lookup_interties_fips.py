@@ -75,15 +75,16 @@ l = polys[[
 # l['intertie_id'] = 'NA'
 # l['intertie_name'] = 'NA'
 
-merge = l.merge(p, on='name', how='left')
-merge.drop_duplicates(inplace=True)
+merged = l.merge(p, on='name', how='left')
+# merged.drop_duplicates(subset=['fips'], inplace=True)
+m = merged.dropna()
 
+merged_dict = dict(zip(m['fips'], m['intertie_id']))
 
 # manual assignment of non-matching
-
 railbelt_id = '215-1985'
 # make a dictionary of fips codes to intertie_id
-fips_to_intertie = {
+manual_dict = {
     '0201305': '005-0000', # Alatna
     '0201420': '169-0000', # Aleknagik
     '0203110': railbelt_id, # Anchor Point
@@ -144,7 +145,7 @@ fips_to_intertie = {
     '0239630': '150-0000', # King Salmon
     '0240670': railbelt_id, # Knik River
     '0240645': railbelt_id, # Knik-Fairview
-    '0240645': '223-0000', # Kodiak Station
+    '0241210': '223-0000', # Kodiak Station 
     '0242160': '217-2009', # Kupreanof (Petersburg)
     '0243260': railbelt_id, # Lazy Mountain
     '0245295': railbelt_id, # Lowell Point (Seward)
@@ -192,6 +193,7 @@ fips_to_intertie = {
     '0275050': '015-2008', # Tanacross
     '0275077': railbelt_id, # Tanaina
     '0275480': '216-0000', # Tazlina
+    '0277140': '023-2015', # Thorne Bay
     '0278680': railbelt_id, # Trapper Creek
     '0279830': railbelt_id, # Two Rivers
     '0279890': railbelt_id, # Tyonek
@@ -202,22 +204,19 @@ fips_to_intertie = {
     '0285680': '223-0000' # Womens Bay
 }
 
-# drop duplicate thorne bay
+lookup_dict = {**merged_dict, **manual_dict}
+
+merged['intertie_id'] = merged['fips'].map(lookup_dict)
+merged.drop_duplicates(subset=['fips'], inplace=True)
 
 
-# map the dictionary to the column intertie_id
-df['intertie_id'] = df['fips'].map(fips_to_intertie)
+lookup = merged[['fips', 'intertie_id']]
 
 
+lookup.to_csv('data/derived/lookup_interties_fips/data/lookup_fips_interties.csv', index=False)
 
 
-
-
-
-lookup_init.to_csv('data/derived/lookup_interties_fips/data/lookup_interties_fips.csv')
-
-
-
+# load = pd.read_csv('data/derived/lookup_interties_fips/data/lookup_fips_interties.csv')
 
 
 
