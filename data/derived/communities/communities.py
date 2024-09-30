@@ -4,7 +4,7 @@ import pandas as pd
 # load polygons with population data
 # load points with intertie data
 polys = gpd.read_file('data/raw/ak-dol.places2020/data/ak-dol.places2020.geojson')
-lookup = gpd.read_file('data/derived/lookup_fips_interties/data/lookup_fips_interties.csv')
+lookup = gpd.read_file('data/derived/lookup_fips_interties/lookup_fips_interties.csv')
 
 # clean:
 #      rename colunmns
@@ -41,5 +41,8 @@ polys['name'] = polys['name'].str.replace(r'\b(CDP|city|and|borough|municipality
 polys_interties = pd.merge(polys, lookup, how='left', on='fips')
 
 
-# pull aggregated intertie data (capacity, generation)
+# write
+polys_interties.to_file('data/derived/communities/communities.geojson', driver='GeoJSON')
 
+# load = gpd.read_file('data/derived/communities/communities.geojson')
+# load.explore()

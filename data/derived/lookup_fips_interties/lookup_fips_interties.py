@@ -213,7 +213,7 @@ merged.drop_duplicates(subset=['fips'], inplace=True)
 lookup = merged[['fips', 'intertie_id']]
 
 
-lookup.to_csv('data/derived/lookup_interties_fips/data/lookup_fips_interties.csv', index=False)
+lookup.to_csv('data/derived/lookup_fips_interties/lookup_fips_interties.csv', index=False)
 
 
 # load = pd.read_csv('data/derived/lookup_interties_fips/data/lookup_fips_interties.csv')

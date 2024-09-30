@@ -4,4 +4,4 @@ import pandas as pd
 (pd.read_csv('https://raw.githubusercontent.com/acep-uaf/aetr-web-book-2024/main/data/final_data/generation.csv')
     .dropna(subset=['generation'])
     .query('generation >= 0')
-    .to_csv('data/raw/aetr/data/aetr_generation.csv'))
+    .to_csv('data/raw/aetr/data/aetr_generation.csv', index=False))

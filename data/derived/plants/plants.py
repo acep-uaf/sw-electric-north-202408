@@ -1,5 +1,16 @@
 import geopandas as gpd
 
+# want:
+# plant_id
+# intertie_id
+# other ids (aea, eia)
+# plant_name
+# capacity
+# prime_mover (lookup?)
+# lat/long
+
+
+
 # load data
 plants = gpd.read_file('data/raw/es/data/es_lookup_plants.geojson')
 

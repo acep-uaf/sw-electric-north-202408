@@ -28,10 +28,18 @@ gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.Latitude), crs
 # pull intertie lookup, save as geojson
 df = pd.read_excel(
         'data/raw/es/data/Energy_Stats_Infrastructure_2021.xlsx',
+        sheet_name = 'Infrastructure FINAL 2023-11-13')
+
+df.to_csv('data/raw/es/data/es_infrastructure.csv', index=False)
+
+
+
+# pull infrastructure lookup, save as csv
+df = pd.read_excel(
+        'data/raw/es/data/Energy_Stats_Infrastructure_2021.xlsx',
         sheet_name = 'LOOKUP INTERTIES 2023-11-08')
 
 df.to_csv('data/raw/es/data/es_lookup_interties.csv', index=False)
-
 
 
 
