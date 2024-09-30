@@ -4,9 +4,12 @@
 
 Shapefile_export/
 
-*.gdb.zip
-*.gdb
+
 *.zip
 *.xlsx
 *.xls
+
 *.db
+*.ddb
+*.gdb.zip
+*.gdb
