@@ -25,9 +25,8 @@ plants.explore(
 
 
 
-test = gpd.read_file('data/raw/es/data/es_lookup_sales_report.geojson')
+test = gpd.read_file('data/raw/usgs/data/usgs_places.geojson')
 test.explore(
-    m=m, 
     color='black'
 )
                                                                           
