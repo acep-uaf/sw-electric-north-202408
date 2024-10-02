@@ -4,9 +4,9 @@ import pandas as pd
 # load points
 # load polys with population data
 # load fips to intertie lookup data
-points = gpd.read_file('data/raw/census/data/2024_gaz_places.geojson')
-polys = gpd.read_file('data/derived/community_polygons/community_polygons.geojson')
-lookup = pd.read_csv('data/derived/lookup_fips_interties/lookup_fips_interties.csv')
+points = gpd.read_file('data/raw/census_2024_gaz_places.geojson')
+polys = gpd.read_file('data/derived/communities.geojson')
+lookup = pd.read_csv('data/derived/lookup_fips_interties.csv')
 
 
 # pull id and point data from census gazateer points

@@ -1,0 +1,359 @@
+plant_name,aea_plant_id
+Akiachak,P3
+Akiak,P4
+Akutan,P5
+Akutan,P5
+Annex Creek,P6
+Auke Bay,P7
+Gold Creek,P8
+Gold Creek,P8
+Lake Dorothy,P10
+Lemon Creek,P11
+Salmon Creek 1,P12
+Snettisham,P13
+Alaska Environmental,P14
+Allakaket,
+Bettles,P31
+Coffman Cove,P33
+Craig,P20
+Viking,
+Black Bear Lake,P15
+South Fork,P18
+Eagle,P34
+Eagle,P34
+Goat Lake,P16
+Haines,P22
+Skagway,P26
+Skagway,P26
+Healy Lake,P36
+Hydaburg,P23
+Mentasta Lake,
+Naukati Bay,P43
+Northway,P25
+Kasidaya Creek,P17
+Slana,P27
+False Island,P21
+Thorne Bay Plant,P28
+Tok,P29
+Whale Pass,P40
+Alakanuk,P45
+Ambler,P46
+Anvik,P79
+Brevig Mission,P48
+Chevak,P49
+Chevak,P49
+Eek,P80
+Ekwok,P81
+Elim,P50
+Emmonak,P51
+Emmonak,P51
+Gambell,P52
+Gambell,P52
+Goodnews Bay,P82
+Grayling,P83
+Holy Cross,P84
+Hooper Bay,P53
+Hooper Bay,P53
+Huslia,P85
+Upper Kalskag,P77
+Kaltag,P86
+Kaltag,P86
+Kasigluk,P54
+Kasigluk,P54
+Kiana,P55
+Kivalina,P56
+Kotlik,P57
+Koyuk,P58
+Marshall,P59
+Mekoryuk,P87
+Mekoryuk,P87
+Minto,P88
+Mountain Village,P60
+New Stuyahok,P61
+Noatak,P62
+Noorvik,P63
+Noorvik,P63
+Nulato,P90
+Old Harbor,P91
+Pilot Station,P65
+Quinhagak,P66
+Quinhagak,P66
+Russian Mission,P93
+Saint Mary's,P67
+Saint Mary's,P67
+Saint Michael,P73
+Savoonga,P68
+Savoonga,P68
+Scammon Bay,P69
+Selawik,P70
+Selawik,P70
+Shageluk,P94
+Shaktoolik,P95
+Shaktoolik,P95
+Shishmaref,P71
+Shungnak,P72
+Shungnak,P72
+Shungnak,P72
+Stebbins,P74
+Teller,P96
+Togiak,P75
+Toksook Bay,P76
+Toksook Bay,P76
+Wales,P98
+Karluk,P100
+Anchorage 1,P101
+Anchorage 1,P101
+Eklutna Lake,P102
+George M Sullivan Generation Plant 2,P103
+George M Sullivan Generation Plant 2,P103
+Aniak,P105
+Atka,P107
+Atka,P107
+Atmautluak,P108
+Aurora Energy,P109
+Banner Peak Wind Farm,
+Barrow,P110
+Barrow,P110
+Beaver,P111
+Bethel,P47
+Bethel,P47
+Buckland,P113
+Buckland,P113
+Buckland,P113
+Buckland,P113
+Chalkyitsik,P114
+Chenega Bay,P115
+Chignik Lagoon,P116
+Chignik Lagoon,P116
+Chignik Lake,P117
+Chignik,P116
+Chitina,P119
+Beluga,P120
+Bernice Lake,P155
+Cooper Lake,P121
+International,
+Circle,P124
+Glennallen,P127
+Solomon Gulch,P128
+Valdez,P129
+Valdez Cogen,P130
+Orca,P133
+Power Creek,P134
+Diomede,P135
+Egegik,P139
+Elfin Cove,
+False Pass,
+Cold Bay,
+Galena,P144
+Central,P145
+Fairbanks,P149
+Healy,P150
+Healy,P150
+North Pole,P151
+North Pole,P151
+Golovin,P153
+Falls Creek,P35
+Gustavus,P35
+Gustavus,P35
+Fort Yukon,P154
+Nikiski Co-Generation,P157
+Seldovia,P158
+Bradley Lake,P156
+Hughes,P160
+Hughes,P160
+Hughes,P160
+Igiugig,P161
+Igiugig,P161
+Igiugig,P161
+Newhalen,P162
+Newhalen,P162
+Tazimina,P162
+Angoon,P163
+Chilkat Valley,P166
+Hoonah,P164
+Hoonah,P164
+Kake,P165
+Kake,P165
+Deering,P169
+Deering,P169
+Deering,P169
+Deering,P169
+Beaver Falls,P171
+Ketchikan,P172
+S W Bailey,P173
+Silvis,P174
+Swan Lake,P175
+King Cove,P177
+King Cove,P177
+Kipnuk,P178
+Kipnuk,P178
+Kodiak,P182
+Nymans Plant,P183
+Pillar Mountain,P184
+Port Lions,P185
+Terror Lake,P187
+Kokhanok,P188
+Kokhanok,P188
+Kotzebue,P189
+Kotzebue,P189
+Kotzebue,P189
+Kotzebue,P189
+Koyukuk,P190
+Kwethluk,P191
+Kwigillingok,P192
+Kwigillingok,P192
+Kwigillingok,P192
+Larsen Bay,P193
+Levelock,P194
+Lime Village,
+Manokotak,P196
+McGrath,P198
+Centennial,P199
+Centennial,P199
+Chester Lake,P200
+Purple Lake,P201
+Chuathbaluk,P202
+Crooked Creek,P203
+Red Devil,
+Sleetmute,P205
+Stony River,P206
+Naknek,P207
+Napaskiak,P209
+Chefornak,P210
+Chefornak,P210
+Perryville,P211
+Perryville,P211
+Nelson Lagoon,P212
+Koliganek,P213
+Nikolai,P214
+Snake River,P215
+Snake River,P215
+Anaktuvuk Pass,P216
+Atqasuk,P217
+Kaktovik,P218
+Nuiqsut,P219
+Nuiqsut,P219
+Point Hope,P220
+Point Lay,P221
+Wainwright,P222
+Sheldon Point,P223
+Dillingham,P224
+Ouzinkie,P225
+Ouzinkie,P225
+Pedro Bay,P227
+Pelican,P228
+Pelican,P228
+Blind Slough,P229
+Blind Slough,P229
+Pilot Point,P230
+Port Heiden,P232
+Kongiganak,P233
+Kongiganak,P233
+Kongiganak,P233
+Ruby,P236
+Saint George,P237
+Saint Paul,P238
+Seward,P239
+Blue Lake,P240
+Green Lake,P241
+Jarvis Street,P242
+Takotna,P247
+Port Alsworth,P248
+Tanana,P249
+Tatitlek,
+Adak,
+Sand Point,P252
+Sand Point,P252
+Manley Hot Springs,P253
+Tenakee Springs,P256
+Tenakee Springs,P256
+Tuluksak,P258
+Tuntutuliak,P259
+Tuntutuliak,P259
+Tuntutuliak,P259
+Twin Hills,P260
+Nikolski,
+Unalakleet,P262
+Unalakleet,P262
+Unalaska Power Module,P264
+Unalaska Power Module,P264
+Newtok,P265
+White Mountain,P272
+Wrangell,P273
+Yakutat,P78
+Delta Wind Farm,P14
+Humpback Creek,P132
+Fire Island Wind,P142
+Eva Creek Wind,P148
+Tyee Lake Hydroelectric Facility,P244
+Akhiok,P2
+Chistochina,
+Arctic Village,P106
+Southcentral Power Project,P123
+Dutch Harbor,P263
+Venetie,P270
+Unisea G 2,P266
+Unisea G 2,P266
+Westward Seafoods,P271
+Clark's Point,P125
+Pillar Mountain Wind Project Microgrid,P184
+Terror Lake Microgrid,P187
+Nunam Iqua,P223
+Kalskag,P77
+TNSG North Plant,P254
+TNSG North Plant,P254
+TNSG South Plant,P255
+Eklutna Hydro Project,P102
+Aurora Energy LLC Chena,P109
+Fort Greely Power Plant,P136
+Utility Plants Section,P137
+JBER Landfill Gas Power Plant,P138
+Soldotna,P159
+Soldotna,P159
+Tesoro Kenai Cogeneration Plant,P257
+University of Alaska Fairbanks,P267
+University of Alaska Fairbanks,P267
+Eielson AFB Central Heat & Power Plant,P268
+Eielson AFB Central Heat & Power Plant,P268
+Lake Dorothy Hydroelectric Project,P10
+Goat Lake Hydro,P16
+Kasidaya Creek Hydro,P17
+Blue Lake Hydro,P240
+Stevens Village,P246
+Galena Electric Utility,P144
+Gwitchyaa Zhee,P154
+Eklutna Generation Station,P197
+Whitman,P176
+Rampart,P234
+Allison Creek Hydro,P126
+Delta Power,P147
+Industrial Plant,P9
+Kodiak Microgrid,P182
+Swampy Acres Microgrid,P186
+Nunapitchuk,P64
+Platinum,P231
+Klawock Power Generation Station,P24
+Birch Creek,
+Nikiski Combined Cycle,P157
+Kotzebue Hybrid,P189
+Craig (AK),P20
+NSB Atqasuk Utility,P217
+NSB Kaktovik Utility,P218
+NSB Nuiqsut Utility,P219
+NSB Point Hope Utility,P220
+Petersburg,P229
+Willow Solar,P235
+Seward (AK),P67
+GVEA Solar Farm,P152
+"Iliamna, Newhalen, Nondalton",P162
+"Naknek, South Naknek, King Salmon",P207
+"Dillingham, Aleknagik",P224
+"Northway, Northway Village, Northway Junction",P25
+"Tok, Tanacross",P29
+"Cordova, Eyak",
+"Allakaket, Alatna",P30
+"Bettles, Evansville",P31
+"Eagle, Eagle Village",P34
+"Saint Mary's, Andreafsky",P67
+Hank Nikkels Plant 1,
+TDX CT1/CT2,P254

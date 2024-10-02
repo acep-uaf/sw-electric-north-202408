@@ -1,2 +1,0 @@
-# Derived Data
-The data contained in this directory has undergone some level of transformation that distinguishes it from raw and source data. Often there has been extensive cleaning or joining of multiple data sources. 
