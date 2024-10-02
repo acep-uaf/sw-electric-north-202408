@@ -1,3 +1,4 @@
+import pandas as pd
 import geopandas as gpd
 
 # want:
@@ -10,9 +11,10 @@ import geopandas as gpd
 # lat/long
 
 
-
 # load data
 plants = gpd.read_file('data/raw/es/data/es_lookup_plants.geojson')
+infrastructure = pd.read_csv('data/derived/infrastructure/infrastructure.csv')
+
 
 # drop empty columns, read as 'Unnamed: 0' etc
 plants.drop(list(plants.filter(regex='Unnamed')), axis=1, inplace=True)
@@ -45,12 +47,50 @@ plants.drop(inplace=True, columns={
     'operator_sector_name'})
 
 
-# awful code, but gets the job done
-plants.rename(inplace=True, columns={'intertie_id':'intertie_id_copy'})
-plants.insert(0, 'intertie_id', plants['intertie_id_copy'])
-plants.drop(inplace=True, columns={'intertie_id_copy'})
+plants_coords = plants[[
+    'aea_plant_id',
+    'latitude',
+    'longitude',
+    'geometry'    
+]]
 
-plants.to_file('data/derived/plants/plants.geojson')
 
 
-# need generation by fuel type (from AETR?)
+# add infrastructure data
+# select operational (or temporarily out of service)
+active_codes = ['OP', 'SB', 'OA']
+infrastructure = infrastructure[infrastructure['status'].isin(active_codes)]
+
+
+infra_coords = infrastructure.merge(plants_coords, on='aea_plant_id')
+
+aggregated = infra_coords.groupby([
+    'aea_plant_id', 
+    'plant_name',
+    'intertie_id',
+    'primary_fuel',
+    'other_fuel',
+    'latitude',
+    'longitude',
+    'geometry'
+], dropna=False)['nameplate_capacity_mw'].sum().reset_index()
+
+
+out_pd = aggregated[[
+    'aea_plant_id', 
+    'plant_name',
+    'intertie_id',
+    'primary_fuel',
+    'other_fuel',
+    'nameplate_capacity_mw',
+    'latitude',
+    'longitude',
+    'geometry'
+]]
+
+
+out = gpd.GeoDataFrame(out_pd, geometry='geometry').to_crs(3338)
+
+
+out.to_file('data/derived/plants/plants.geojson')
+

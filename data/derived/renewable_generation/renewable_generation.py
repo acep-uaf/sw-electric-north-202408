@@ -40,5 +40,5 @@ renewable_ratio['ratio_renewable_generation'] = renewable_ratio['renewable_gener
 
 out = renewable_ratio
 
-out.to_csv('data/final/data/renewable_generation.csv', index=False)
+out.to_csv('data/derived/renewable_generation/renewable_generation.csv', index=False)
 

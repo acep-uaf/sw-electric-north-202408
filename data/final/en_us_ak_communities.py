@@ -6,7 +6,7 @@ import geopandas as gpd
 
 # TODO
 # import communities
-communities_2020 = gpd.read_file('data/derived/communities/communities.geojson')
+communities_2020 = gpd.read_file('data/derived/community_points/community_points.geojson')
 
 # import grid capacity data (2023, is that a problem?)
 capacity_2023 = pd.read_csv('data/final/data/renewable_capacity.csv')
@@ -44,14 +44,17 @@ sub = aggregated[[
 
 # rename the subsetted columns
 sub.rename(inplace=True, columns={
-    'total_population': 'population',
-    'renewable_capacity_mw': 'grid_renewable_capacity_mw',
-    'sum_capacity_mw': 'grid_capacity_mw',
-    'generation_mwh': 'grid_annual_generation_mwh'
+    'name': 'EN-name',
+    'total_population': 'EN-population',
+    'en_category': 'EN-category',
+    'renewable_capacity_mw': 'EN-installed_renewable_capacity',
+    'sum_capacity_mw': 'EN-installed_capacity',
+    'generation_mwh': 'EN-annual_generation'
 })
 
 
 # glennallen, cordova, sitka (generation), alakanuk, st. mary's
 
 
-sub.explore()
+sub.to_file('data/final/data/en_us_ak_communities.geojson')
+
