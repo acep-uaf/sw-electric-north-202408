@@ -1,4 +1,4 @@
-aea_plant_id,plant_name,intertie_id,generator_id,prime_mover,primary_fuel,other_fuel,nameplate_capacity_mw,status
+aea_plant_id,plant_name,intertie_id,generator_id,prime_mover,primary_fuel,other_fuel,capacity_mw,status
 P1,Agrium Kenai Nitrogen Operations,215-1985,744A,GT,NG,,2.5,OS
 P1,Agrium Kenai Nitrogen Operations,215-1985,744B,GT,NG,,2.5,OS
 P1,Agrium Kenai Nitrogen Operations,215-1985,744C,GT,NG,,2.5,OS

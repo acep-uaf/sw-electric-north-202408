@@ -73,7 +73,7 @@ aggregated = infra_coords.groupby([
     'latitude',
     'longitude',
     'geometry'
-], dropna=False)['nameplate_capacity_mw'].sum().reset_index()
+], dropna=False)['capacity_mw'].sum().reset_index()
 
 
 out_pd = aggregated[[
@@ -82,7 +82,7 @@ out_pd = aggregated[[
     'intertie_id',
     'primary_fuel',
     'other_fuel',
-    'nameplate_capacity_mw',
+    'capacity_mw',
     'latitude',
     'longitude',
     'geometry'

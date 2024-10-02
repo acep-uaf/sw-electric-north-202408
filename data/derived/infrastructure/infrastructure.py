@@ -9,7 +9,7 @@ infrastructure.rename(inplace=True, columns={
     'Intertie ID': 'intertie_id',
     'Generator ID': 'generator_id',
     'Prime Mover': 'prime_mover',
-    'Nameplate Capacity (MW)': 'nameplate_capacity_mw',
+    'Nameplate Capacity (MW)': 'capacity_mw',
     'Planned or Actual Retirement Year': 'planned_or_actual_retirement_year',
     'Energy Source 1': 'primary_fuel',
     'Energy Source 2': 'other_fuel',
@@ -24,7 +24,7 @@ out = infrastructure[[
     'prime_mover',
     'primary_fuel',
     'other_fuel',
-    'nameplate_capacity_mw',
+    'capacity_mw',
     'status'
 ]]
 
