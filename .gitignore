@@ -11,5 +11,6 @@ Shapefile_export/
 
 *.db
 *.ddb
+*.wal
 *.gdb.zip
 *.gdb
