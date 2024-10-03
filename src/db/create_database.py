@@ -1,46 +1,42 @@
 import ibis
-ibis.options.interactive = True
+from glob import iglob
+import os
 
-# create empty database
-con = ibis.connect("duckdb://data/db/test.ddb")
-con.load_extension('spatial')
+# point towards files to vaccuum into the database
+# data_dir = 'data/derived'
+# db_dir = 'data/db/test.ddb'
 
-con.list_tables()
+def data_to_db(data_dir, database_filepath):
+    db_uri = 'duckdb://' + database_filepath
 
-# write communities into db (geospatial!!)
-con.create_table(
-    'communities', 
-    con.read_geo(table_name='communities', source='data/derived/communities.geojson'),
-    overwrite=True
-)
+    # open a connection (or create) the database
+    con = ibis.connect(db_uri)
+    con.load_extension('spatial')
 
-# generation into db
-con.create_table(
-    'generation', 
-    con.read_csv(table_name='generation', source_list='data/derived/generation.csv'),
-    overwrite=True)
+    # find all csv and geojson files in the directory
+    csv_files = iglob(os.path.join(data_dir, '*.csv'))
+    geojson_files = iglob(os.path.join(data_dir, '*.geojson'))
 
-# interties
-con.create_table(
-    'interties', 
-    con.read_csv(table_name='interties', source_list='data/derived/interties.csv'),
-    overwrite=True
-)
+    # loop to write csvs into the database
+    for file_path in csv_files:
+        file_name = os.path.basename(file_path)
+        table_name = os.path.splitext(file_name)[0]
+        con.create_table(
+            table_name,
+            con.read_csv(table_name=table_name, source_list=file_path),
+            overwrite=True)
 
-# plants
-con.create_table(
-    'plants', 
-    con.read_csv(table_name='plants', source_list='data/derived/plants.geojson'),
-    overwrite=True
-)
+    # loop to write geojsons into the database
+    for file_path in geojson_files:
+        file_name = os.path.basename(file_path)
+        table_name = os.path.splitext(file_name)[0]
+        con.create_table(
+            table_name,
+            con.read_geo(table_name=table_name, source=file_path),
+            overwrite=True)
 
-# transmission
-con.create_table(
-    'transmission', 
-    con.read_geo(table_name= 'transmission', source='data/derived/transmission.geojson'),
-    overwrite=True
-)
+    con.disconnect()
 
 
-con.list_tables()
-con.disconnect()
+if __name__ == "__main__": 
+    data_to_db(data_dir='data/derived', database_filepath='data/db/test.ddb')
