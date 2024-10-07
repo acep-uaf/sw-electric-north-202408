@@ -23,11 +23,16 @@ add_generation = pd.merge(add_capacity, generation_2020, how='left', on='interti
 
 aggregated = add_generation
 
-# assign grid category: regional or remote
+# assign grid category, all islanded to start, add regional for the few regional grids
 aggregated['en_category'] = pd.Series(dtype='string')
 aggregated['en_category'] = 'Islanded'
 
-aggregated.loc[aggregated['intertie_id'] == '215-1985', 'en_category'] = 'Regional'
+aggregated.loc[aggregated['intertie_id'] == '215-1985', 'en_category'] = 'Regional' # Railbelt
+aggregated.loc[aggregated['intertie_id'] == '217-2009', 'en_category'] = 'Regional' # SEAPA
+aggregated.loc[aggregated['intertie_id'] == '222-0000', 'en_category'] = 'Regional' # Juneau 
+aggregated.loc[aggregated['intertie_id'] == '223-0000', 'en_category'] = 'Regional' # Kodiak 
+aggregated.loc[aggregated['intertie_id'] == '014-1990', 'en_category'] = 'Regional' # Copper Valley Electric Association
+
 
 # subset columns of interest
 sub = aggregated[[

@@ -32,5 +32,17 @@ transmission_cleaning(
     output = 'data/derived/transmission.geojson',
     voltage_limit = 70)
 
-# load = gpd.read_file('data/raw/en_regional_grids_capacity.geojson')
-# load.explore()
+transmission_cleaning(
+    input = 'data/source/Shapefile_export/AEA-Transmission_Lines-202200706/Alaska_Energy_Authority_Library.shp',
+    output = 'data/derived/transmission_all_lines.geojson',
+    voltage_limit = 0)
+
+
+all_lines = gpd.read_file('data/derived/transmission_all_lines.geojson')
+m = all_lines.explore(color='red')
+
+limited = gpd.read_file('data/derived/transmission.geojson')
+limited.explore(
+    m = m,
+    color = 'blue'
+)
