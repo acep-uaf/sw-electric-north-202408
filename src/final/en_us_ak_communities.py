@@ -63,3 +63,4 @@ sub.rename(inplace=True, columns={
 
 sub.to_file('data/final/en_us_ak_communities.geojson')
 
+sub.to_crs(epsg=3857).to_file('data/final/en_us_ak_communities_3857.geojson')
