@@ -1,4 +1,6 @@
 .venv/
+.env
+.postgres_config
 
 .DS_Store
 

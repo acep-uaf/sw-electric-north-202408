@@ -39,4 +39,6 @@ def data_to_db(data_dir, database_filepath):
 
 
 if __name__ == "__main__": 
-    data_to_db(data_dir='data/raw', database_filepath='data/db/raw.ddb')
+    data_to_db(data_dir='data/raw', database_filepath='data/db/test.ddb')
+
+

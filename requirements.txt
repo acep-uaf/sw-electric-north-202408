@@ -70,6 +70,7 @@ prompt_toolkit==3.0.47
 proto-plus==1.24.0
 protobuf==5.28.0
 psutil==6.0.0
+psycopg2==2.9.9
 ptyprocess==0.7.0
 pure_eval==0.2.3
 pyarrow==17.0.0
@@ -84,6 +85,7 @@ pyparsing==3.1.4
 pyproj==3.6.1
 pyshp==2.3.1
 python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
 python-Levenshtein==0.25.1
 pytz==2024.1
 PyYAML==6.0.2
