@@ -38,11 +38,11 @@ transmission_cleaning(
     voltage_limit = 0)
 
 
-all_lines = gpd.read_file('data/derived/transmission_all_lines.geojson')
-m = all_lines.explore(color='red')
+# all_lines = gpd.read_file('data/derived/transmission_all_lines.geojson')
+# m = all_lines.explore(color='red')
 
-limited = gpd.read_file('data/derived/transmission.geojson')
-limited.explore(
-    m = m,
-    color = 'blue'
-)
+# limited = gpd.read_file('data/derived/transmission.geojson')
+# limited.explore(
+#     m = m,
+#     color = 'blue'
+# )

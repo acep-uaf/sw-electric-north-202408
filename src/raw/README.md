@@ -1,4 +1,3 @@
-
 # `raw/`
 The scripts in this directory (and corresponding outputs in `data/raw`) are bare minimal transformations of external data sources. Most scripts are rudimentary API calls, where a URL string is accessed and saved to file. This operation was largely done using Pandas and GeoPandas.  
 

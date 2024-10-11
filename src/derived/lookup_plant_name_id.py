@@ -74,4 +74,4 @@ lookup = merged
 
 lookup.to_csv('data/derived/lookup_plant_name_id.csv', index=False)
 
-load = pd.read_csv('data/derived/lookup_plant_name_id.csv')
+# load = pd.read_csv('data/derived/lookup_plant_name_id.csv')
