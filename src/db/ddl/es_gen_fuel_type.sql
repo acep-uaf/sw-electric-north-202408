@@ -1,4 +1,6 @@
-CREATE TABLE IF NOT EXISTS es_gen_fuel_type("Year" VARCHAR,
+DROP TABLE es_gen_fuel_type;
+CREATE TABLE es_gen_fuel_type(
+    "Year" VARCHAR,
     "PLANTS_AEA plant ID" VARCHAR,
     "PCE reporting ID" VARCHAR,
     "RCA CPCN" VARCHAR,

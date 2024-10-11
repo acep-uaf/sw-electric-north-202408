@@ -1,4 +1,5 @@
-CREATE TABLE IF NOT EXISTS es_lookup_interties(
+DROP TABLE es_lookup_interties;
+CREATE TABLE es_lookup_interties(
     intertie_id VARCHAR,
     "Intertie Unique ID Name" VARCHAR,
     "Current ID" BOOLEAN,

@@ -5,7 +5,9 @@ PG="dbname=testing host=localhost port=5432 user=ian"
 
 # Works great! Don't change!
 for filename in data/raw/*.geojson; do
+
     tablename="$(basename "${filename%.geojson}")"
+
     ogr2ogr -f "PostgreSQL" \
         PG:"$PG" \
         "$filename" \
@@ -14,4 +16,5 @@ for filename in data/raw/*.geojson; do
 
     echo $filename
     echo "written as $tablename"
+    
 done

@@ -1,4 +1,5 @@
-CREATE TABLE IF NOT EXISTS es_infrastructure(
+DROP TABLE es_infrastructure;
+CREATE TABLE es_infrastructure(
     "AEA plant ID" VARCHAR,
     "Plant Name" VARCHAR,
     "AEA operator ID" VARCHAR,

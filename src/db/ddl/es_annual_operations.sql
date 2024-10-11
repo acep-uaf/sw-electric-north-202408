@@ -1,4 +1,5 @@
-CREATE TABLE IF NOT EXISTS es_annual_operations(
+DROP TABLE es_annual_operations;
+CREATE TABLE es_annual_operations(
     "Data Year" BIGINT,
     "AEA Reporter ID" VARCHAR,
     "AEA Reporter Name" VARCHAR,

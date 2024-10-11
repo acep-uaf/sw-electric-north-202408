@@ -1,4 +1,5 @@
-CREATE TABLE IF NOT EXISTS es_monthly_gen(
+DROP TABLE es_monthly_gen;
+CREATE TABLE es_monthly_gen(
     "Year" BIGINT,
     "Month" BIGINT,
     "PLANTS_AEA plant ID" VARCHAR,
