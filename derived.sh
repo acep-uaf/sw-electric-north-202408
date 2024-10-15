@@ -1,15 +1,5 @@
 #!/bin/sh
 
-# raw
-# set path
-raw=./src/raw
-# loop through python scripts and run
-for f in $raw/*.py
-do
-    python $f 
-done
-
-
 # derived
 # set path
 derived=./src/derived
@@ -29,18 +19,6 @@ for f in $derived/community_polygons.py \
         $derived/generation.py \
         $derived/renewable_generation.py \
         $derived/renewable_capacity.py
-do
-    python $f
-done
-
-
-# final 
-# set path
-final=./src/final
-# loop and run scripts
-for f in $final/en_us_ak_communities.py \
-        $final/en_us_ak_powerplants.py \
-        $final/en_us_ak_transmission.py
 do
     python $f
 done
