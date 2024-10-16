@@ -16,7 +16,7 @@ from urllib.request import urlretrieve
 
 
 
-zip_url = 'https://wri.prod.ckan.datopian.com/dataset/c767c803-5294-4cd4-b6fa-d79db94f8cc5/resource/4340a48b-f5a3-4925-b194-0455873eeb62/download/globalpowerplantdatabasev110.zip'
+zip_url = 'https://wri.prod.ckan.datopian.com/dataset/53623dfd-3df6-4f15-a091-67457cdb571f/resource/66bcdacc-3d0e-46ad-9271-a5a76b1853d2/download/globalpowerplantdatabasev130.zip'
 zip_path = 'data/source/gppdb.zip'
 
 urlretrieve(zip_url, zip_path)
@@ -26,5 +26,3 @@ os.makedirs(path_to_save, exist_ok=True)
 
 with zipfile.ZipFile(zip_path, 'r') as zip_ref:
     zip_ref.extractall(path_to_save)
-
-print('WARNING!!! This is the old version of the Global Power Plant Database. Use for testing purposes only!')
