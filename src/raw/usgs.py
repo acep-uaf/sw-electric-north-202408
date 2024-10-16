@@ -23,3 +23,14 @@ geo_save(
     geo_output = 'data/raw/usgs_places.geojson'
 )
 
+# US Wind Turbine Database
+geo_save(
+    geo_input = 'data/source/uswtdb/uswtdb_v7_1_20240814.geojson',
+    geo_output = 'data/raw/usgs_uswtdb.geojson',
+    crs=4326
+)
+
+# National Boundary Dataset
+# It's there in /sources, but seems to be repackaged Census data
+# I'm not sure the value of this data, preserving code for posterity
+

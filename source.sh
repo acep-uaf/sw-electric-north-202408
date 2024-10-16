@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# raw
+# source
 # set path
-raw=./src/raw
+raw=./src/source
 # loop through python scripts and run
 for f in $raw/*.py
 do
